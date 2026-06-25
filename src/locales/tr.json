@@ -33,31 +33,6 @@
     "readMore": "Daha Fazla Oku",
     "articlesComingSoon": "Makaleler yakında"
   },
-  "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
-    "stats": {
-      "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
-      },
-      "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
-      },
-      "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
-      },
-      "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
-      }
-    }
-  },
   "gameFeature": {
     "title": "Lucid Blocks Oynanışı",
     "description": "Ufak cücelerin kaotik 6 oyunculu işbirliği gizli görevlerinde büyük soygunlar yapmasını izleyin!"
@@ -832,8 +807,8 @@
     "legal": "Yasal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
+    "steamCommunity": "Reddit",
+    "steamStore": "Google Play",
     "about": "Hakkında",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",

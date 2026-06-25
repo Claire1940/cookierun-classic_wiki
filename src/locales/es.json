@@ -33,31 +33,6 @@
     "readMore": "Leer más",
     "articlesComingSoon": "Artículos próximamente"
   },
-  "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
-    "stats": {
-      "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
-      },
-      "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
-      },
-      "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
-      },
-      "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
-      }
-    }
-  },
   "gameFeature": {
     "title": "Jugabilidad de Lucid Blocks",
     "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
@@ -798,8 +773,8 @@
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "steamCommunity": "Reddit",
+    "steamStore": "Google Play",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",

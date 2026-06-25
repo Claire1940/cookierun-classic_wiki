@@ -33,31 +33,6 @@
     "readMore": "En savoir plus",
     "articlesComingSoon": "Articles à venir"
   },
-  "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
-    "stats": {
-      "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
-      },
-      "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
-      },
-      "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
-      },
-      "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
-      }
-    }
-  },
   "gameFeature": {
     "title": "Gameplay de Lucid Blocks",
     "description": "Regardez de minuscules gnomes réaliser de gros braquages dans des missions furtives chaotiques en coopération à 6 joueurs !"
@@ -832,8 +807,8 @@
     "legal": "Légal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
+    "steamCommunity": "Reddit",
+    "steamStore": "Google Play",
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",

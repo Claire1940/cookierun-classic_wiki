@@ -33,31 +33,6 @@
     "readMore": "Mehr lesen",
     "articlesComingSoon": "Artikel folgen bald"
   },
-  "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
-    "stats": {
-      "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
-      },
-      "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
-      },
-      "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
-      },
-      "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
-      }
-    }
-  },
   "gameFeature": {
     "title": "Lucid Blocks Gameplay",
     "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
@@ -832,8 +807,8 @@
     "legal": "Rechtliches",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "Reddit",
+    "steamStore": "Google Play",
     "about": "Über uns",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",

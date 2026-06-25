@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "CookieRun Classic Wiki - Codes, Cookies & Combis",
+  "short_name": "CookieRun Classic",
+  "description": "CookieRun Classic Wiki covers codes, launch rewards, beginner tips, best Cookies, Pets, Treasures, combis, events, and league guides for faster runs.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#f6ae1e",
+  "background_color": "#fff7e6",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

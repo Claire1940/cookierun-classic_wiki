@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "CookieRun Classic - Codes, Cookies & Combis",
+      "description": "CookieRun Classic covers codes, launch rewards, beginner tips, best Cookies, Pets, Treasures, combis, events, and league guides for faster runs.",
+      "keywords": "CookieRun Classic, codes, cookies, pets, treasures, combis, events, league",
+      "ogTitle": "CookieRun Classic - Codes, Cookies & Combis",
+      "ogDescription": "CookieRun Classic covers codes, launch rewards, beginner tips, best Cookies, Pets, Treasures, combis, events, and league guides for faster runs.",
+      "twitterTitle": "CookieRun Classic - Codes, Cookies & Combis",
+      "twitterDescription": "CookieRun Classic covers codes, launch rewards, beginner tips, best Cookies, Pets, Treasures, combis, events, and league guides for faster runs."
     }
   },
   "nav": {
@@ -34,27 +34,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Classic Cookie Runner Adventure",
+    "title": "CookieRun Classic",
+    "description": "Run, jump, and slide with classic Cookies as you collect Jellies, escape the Witch's Oven, unlock Cookies, Pets, and Treasures, join real-time League races, and track launch rewards and events.",
+    "keywords": "CookieRun Classic, iOS, Android, codes, cookies, pets, treasures, combis, events, league",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on App Store / Google Play",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "300M+",
+        "label": "Series Players"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "Jun 25, 2026",
+        "label": "Grand Launch"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "4.8/5",
+        "label": "iOS Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "#3",
+        "label": "US App Store Racing"
       }
     }
   },
@@ -791,20 +792,20 @@
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "CookieRun Classic Wiki",
+    "description": "Your complete resource hub for CookieRun Classic crafting, biomes, creatures, achievements, and survival guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "Reddit",
+    "steamStore": "Google Play",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 CookieRun Classic Wiki. Not affiliated with the developers of CookieRun Classic.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
