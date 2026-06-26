@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play Now",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -53,696 +53,657 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "CookieRun Classic Gameplay",
+    "description": "Run, jump, and slide through classic endless-runner stages, collect Jellies, escape the Witch's Oven, and upgrade Cookies, Pets, and Treasures for stronger League score runs on iOS and Android."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "CookieRun Classic",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need for codes, downloads, beginner tips, best Cookies, Pets, Treasures, combis, events, and League high-score runs.",
     "cards": [
       {
+        "icon": "Ticket",
+        "title": "CookieRun Classic Codes",
+        "description": "Active coupons, DevPlay redeem flow, launch gifts, and expired-code records"
+      },
+      {
+        "icon": "Download",
+        "title": "CookieRun Classic Download",
+        "description": "iOS and Android launch, store links, requirements, and store notes"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "CookieRun Classic Beginner Guide",
+        "description": "Jump, slide, Jellies, and a clean first-day progression route"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Trophy",
+        "title": "CookieRun Classic Tier List",
+        "description": "Best Cookies, Pets, and Treasures ranked for early runs and League"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Cookie",
+        "title": "CookieRun Classic Cookies & Pets",
+        "description": "Collection guide, upgrade priorities, and score-building combos"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Swords",
+        "title": "CookieRun Classic League Guide",
+        "description": "Real-time scoring, best combis, and high-score run habits"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "CalendarClock",
+        "title": "CookieRun Classic Events",
+        "description": "Grand Open, launch gifts, new Cookie updates, and update tracker"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "LifeBuoy",
+        "title": "CookieRun Classic Support",
+        "description": "Account transfer, install, update, connection, and crash fixes"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "cookierunClassicCodesCouponRedeem": {
+      "title": "CookieRun Classic Codes and DevPlay Coupon Redeem",
+      "displayType": "code-cards",
+      "intro": "CookieRun Classic uses the DevPlay coupon page for code entry. Players need a DevPlay account email address or Player ID, a valid coupon code, and a game restart after redemption. Launch gifts are handled as in-game event rewards.",
+      "items": [
+        {
+          "code": "Active public coupon codes",
+          "status": "No public code listed",
+          "reward": "No public CookieRun Classic coupon code is listed on the official DevPlay redemption page.",
+          "redeemAt": "https://coupon.devplay.com/coupon/crg/en",
+          "notes": [
+            "Use this slot for the next code posted by Devsisters or the official CookieRun Classic account.",
+            "Each valid coupon code can be used only once per account.",
+            "Check the coupon expiration date if the reward does not arrive."
+          ]
+        },
+        {
+          "code": "Launch gifts",
+          "status": "In-game event",
+          "reward": "300 Crystals, 100,000 Coins, and 3 Supreme Treasure Tickets",
+          "redeemAt": "In game",
+          "notes": [
+            "The launch gift event is separate from the DevPlay coupon form.",
+            "Claim the event rewards from the in-game launch event flow before spending upgrade resources.",
+            "The Grand Open event also highlights login rewards, missions, and beginner buffs."
+          ]
+        },
+        {
+          "code": "DevPlay redemption flow",
+          "status": "How to redeem",
+          "reward": "Applies to any valid official CookieRun Classic coupon code",
+          "redeemAt": "https://coupon.devplay.com/coupon/crg/en",
+          "steps": [
+            "Open the CookieRun Classic coupon redemption site.",
+            "Enter the DevPlay account email address or Player ID found in the in-game settings.",
+            "Enter the coupon code exactly as shown.",
+            "Submit the form, then restart CookieRun Classic to receive the reward.",
+            "Check the coupon expiration date if the reward does not arrive."
+          ]
+        },
+        {
+          "code": "Expired official coupons",
+          "status": "Empty expired list",
+          "reward": "No expired public CookieRun Classic coupon is listed by the current official pages.",
+          "redeemAt": "Not applicable",
+          "notes": [
+            "Move a code here only after it was previously posted by Devsisters or the official CookieRun Classic account.",
+            "Keep the original reward, expiration date, and source attached to every expired entry."
+          ]
+        }
+      ]
+    },
+    "cookierunClassicReleaseDateDownload": {
+      "title": "CookieRun Classic Release Date, Platforms, and Download Links",
+      "displayType": "info-cards",
+      "intro": "CookieRun Classic launched globally on June 25, 2026 as a mobile running adventure from Devsisters. The official store pages list the core loop as eating Jellies, avoiding obstacles, escaping the Witch's Oven, collecting Cookies and Pets, upgrading Treasures, and competing in League score runs.",
+      "items": [
+        {
+          "label": "Global launch",
+          "value": "June 25, 2026",
+          "type": "release-status",
+          "details": [
+            "Official launch messaging says the global dash has begun.",
+            "The current store update is CookieRun Classic Grand Launch.",
+            "Launch events include login rewards, missions, beginner buffs, and a launch gift bundle."
+          ]
+        },
+        {
+          "label": "App Store download",
+          "platform": "iOS and iPadOS",
+          "href": "https://apps.apple.com/us/app/cookierun-classic/id6759596824",
+          "price": "Free with in-app purchases",
+          "requirements": [
+            "Requires iOS 15.0 or later on iPhone.",
+            "Requires iPadOS 15.0 or later on iPad.",
+            "Requires iOS 15.0 or later on iPod touch."
+          ],
+          "storeFacts": [
+            "Developer: Devsisters",
+            "Category: Adventure",
+            "Age rating: 9+",
+            "Size: 358.1 MB",
+            "Language: English",
+            "Version: 26.6.01"
+          ]
+        },
+        {
+          "label": "Google Play download",
+          "platform": "Android",
+          "href": "https://play.google.com/store/apps/details?hl=en_US&id=com.devsisters.crg",
+          "price": "Free with in-app purchases",
+          "requirements": [
+            "Listed for Android phone and tablet play.",
+            "Content rating: Everyone."
+          ],
+          "storeFacts": [
+            "Developer: Devsisters Corporation",
+            "Package ID: com.devsisters.crg",
+            "Updated: June 24, 2026",
+            "What's new: CookieRun Classic Grand Launch"
+          ]
+        },
+        {
+          "label": "Launch gifts",
+          "value": "300 Crystals, 100,000 Coins, and 3 Supreme Treasure Tickets",
+          "type": "event-reward",
+          "details": [
+            "Listed as a launch celebration reward for all players.",
+            "Best claimed before choosing your first main Cookie, Pet, and Treasure upgrade path."
+          ]
+        },
+        {
+          "label": "Store purchases",
+          "value": "Optional in-app purchases",
+          "type": "monetization",
+          "details": [
+            "Starter Pack: $3.99",
+            "PartyRun Pass 02: $4.99",
+            "Treasure Package: $7.49",
+            "Fast Growth XP Package: $6.99",
+            "Super Crystal Package: $15.99",
+            "Supreme Package (Lotus Root Phantom): $35.99"
+          ]
+        }
+      ]
+    },
+    "cookierunClassicBeginnerGuide": {
+      "title": "CookieRun Classic Beginner Guide for Your First Runs",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "CookieRun Classic is built around fast two-button running. New players should learn the movement rhythm first, claim launch and beginner rewards, then focus upgrades into one reliable combi before chasing every shiny Cookie on the roster.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Install the official game",
+          "goal": "Start from the App Store or Google Play listing, not a third-party APK page.",
+          "details": [
+            "Use the App Store listing for iPhone or iPad.",
+            "Use the Google Play listing for Android.",
+            "Open the game after installing and check the Grand Open event panel."
+          ]
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Learn the two core controls",
+          "goal": "Build muscle memory around Jump and Slide.",
+          "details": [
+            "Tap Jump to clear gaps and obstacles.",
+            "Use Slide for low obstacles.",
+            "The official store description frames the game as casual running action with two-button controls."
+          ]
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Run for Jellies and survival",
+          "goal": "Score by collecting Jellies while avoiding obstacles.",
+          "details": [
+            "Eat Jellies during the run.",
+            "Avoid obstacles that break your rhythm or end the run.",
+            "Keep the main objective simple: escape the Witch's Oven and continue the adventure."
+          ]
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Claim launch and beginner rewards",
+          "goal": "Use the early reward pool before spending resources blindly.",
+          "details": [
+            "Claim 300 Crystals, 100,000 Coins, and 3 Supreme Treasure Tickets from the launch gift event.",
+            "Use Grand Open login rewards, missions, and beginner buffs for first-day momentum.",
+            "Spend Treasure Tickets after choosing the setup you plan to run."
+          ]
+        },
+        {
+          "title": "Build one main Cookie and Pet pair",
+          "goal": "Avoid spreading upgrades across too many runners early.",
+          "details": [
+            "Collect Cookies and Pets as your roster expands.",
+            "Pick one comfortable Cookie and Pet pair for regular runs.",
+            "Keep testing new pairs, but do not abandon a working setup after every new pull."
+          ]
+        },
+        {
+          "title": "Upgrade Treasures around your main setup",
+          "goal": "Turn a basic run into a stronger combi.",
+          "details": [
+            "Treasures are upgradeable and are described as part of more powerful combinations.",
+            "Put early Treasure upgrades into the setup you actually use.",
+            "Save some resources until you understand which Treasure effects fit your scoring route."
+          ]
+        },
+        {
+          "title": "Enter League after your route feels stable",
+          "goal": "Move from survival practice into score competition.",
+          "details": [
+            "League is the real-time competition mode highlighted on the official store pages.",
+            "Use League to compare scores against other players.",
+            "Improve one route at a time instead of changing Cookie, Pet, and Treasures after every run."
+          ]
         }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "cookierunClassicTierListCombis": {
+      "title": "CookieRun Classic Tier List and Best Combis",
+      "displayType": "tier-grid",
+      "intro": "CookieRun Classic scoring is built around Cookies, Pets, and upgraded Treasures working together. This tier grid ranks launch-safe upgrade priorities and officially highlighted Cookie and Pet content for progression.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "tier": "S",
+          "rank": 1,
+          "name": "Main Cookie + Pet + upgraded Treasures",
+          "category": "Best first combi",
+          "bestFor": [
+            "Early progression",
+            "League scoring",
+            "General running"
+          ],
+          "whyItRanksHere": "The official store pages describe Cookies, Pets, and upgradeable Treasures as the core path for stronger combinations.",
+          "recommendedUse": "Choose one comfortable Cookie and Pet pair, then upgrade Treasures around that setup before investing across the whole roster."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "tier": "S",
+          "rank": 2,
+          "name": "Beginner event buffs + launch gifts",
+          "category": "Fast-start resources",
+          "bestFor": [
+            "First-day growth",
+            "Treasure upgrades",
+            "Early route testing"
+          ],
+          "whyItRanksHere": "The Grand Open and launch gift events provide missions, beginner buffs, 300 Crystals, 100,000 Coins, and 3 Supreme Treasure Tickets.",
+          "recommendedUse": "Claim these rewards first, then spend them on the Cookie, Pet, and Treasure setup you plan to keep running."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "tier": "A",
+          "rank": 3,
+          "name": "Lotus Root Phantom Cookie + Lotus Sitter",
+          "category": "Current update Cookie and Pet",
+          "bestFor": [
+            "New content testing",
+            "Collection growth",
+            "Combi comparison"
+          ],
+          "whyItRanksHere": "The current official update highlights Lotus Root Phantom Cookie and Lotus Sitter as the new Cookie and Pet.",
+          "recommendedUse": "Test this pair against your upgraded main setup in normal runs and League before shifting all resources."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "tier": "A",
+          "rank": 4,
+          "name": "K-Culture Cookies",
+          "category": "Exclusive Cookie pool",
+          "bestFor": [
+            "Collection value",
+            "Theme coverage",
+            "Event routing"
+          ],
+          "whyItRanksHere": "CookieRun Classic highlights Cookies inspired by Korean culture and cuisine as exclusive content for this version.",
+          "recommendedUse": "Prioritize these Cookies when an event, package, or reward path directly supports them."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "tier": "B",
+          "rank": 5,
+          "name": "Wide Cookie and Pet collection",
+          "category": "Roster depth",
+          "bestFor": [
+            "Long-term account growth",
+            "Future updates",
+            "Alternative routes"
+          ],
+          "whyItRanksHere": "A wider roster gives more choices, but early score growth is cleaner when upgrades stay focused on one practical combi.",
+          "recommendedUse": "Collect broadly, but upgrade narrowly until you know which Cookie and Pet pair fits your route."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "tier": "B",
+          "rank": 6,
+          "name": "Optional paid growth packages",
+          "category": "Spending shortcut",
+          "bestFor": [
+            "Faster upgrades",
+            "Treasure investment",
+            "Paid progression"
+          ],
+          "whyItRanksHere": "The App Store lists optional packs such as Starter Pack, Treasure Package, Fast Growth XP Package, and Supreme Package (Lotus Root Phantom).",
+          "recommendedUse": "Treat paid packs as acceleration after claiming free launch rewards, not as a replacement for learning the run route."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "cookierunClassicCookiesPetsTreasures": {
+      "title": "CookieRun Classic Cookies, Pets, and Treasures",
+      "displayType": "card-list",
+      "intro": "CookieRun Classic focuses on collecting Cookies and Pets, then upgrading Treasures to create stronger score combinations. The current launch materials highlight exclusive K-Culture Cookies, Pine Monk Cookie, Lotus Root Phantom Cookie, Lotus Sitter, Treasures, and Supreme Treasure Tickets as the most important collection and growth points to track first.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "category": "Cookie Collection",
+          "name": "Exclusive K-Culture Cookies",
+          "type": "Cookie group",
+          "detail": "CookieRun Classic features Cookies inspired by Korean culture and cuisine, only in CookieRun Classic.",
+          "upgradePriority": "High when event missions or launch bonuses feature these Cookies.",
+          "scoreNote": "Use event-featured Cookies first, then pair them with active Pets and upgraded Treasures for better score potential."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "category": "Cookie",
+          "name": "Pine Monk Cookie",
+          "type": "Featured Cookie",
+          "detail": "Pine Monk Cookie is named in the official new Cookie and Pet event as part of the current travel-party theme.",
+          "upgradePriority": "High during the launch Cookie and Pet event cycle.",
+          "scoreNote": "Check Pine Monk Cookie-related event missions before spending resources elsewhere."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "category": "Cookie",
+          "name": "Lotus Root Phantom Cookie",
+          "type": "New Cookie",
+          "detail": "Lotus Root Phantom Cookie is featured in the official Google Play launch update.",
+          "upgradePriority": "High for launch-event testing and new-combi runs.",
+          "scoreNote": "Start by testing Lotus Root Phantom Cookie with Lotus Sitter and your strongest upgraded Treasures."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "category": "Pet",
+          "name": "Lotus Sitter",
+          "type": "New Pet",
+          "detail": "Lotus Sitter is featured alongside Lotus Root Phantom Cookie in the official launch update.",
+          "upgradePriority": "High when running Lotus Root Phantom Cookie or event missions tied to the launch update.",
+          "scoreNote": "Pets should be evaluated with their Cookie partner and Treasure setup, not as isolated upgrades."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "category": "Cookie Growth",
+          "name": "Princess Bari Soulstone Package",
+          "type": "Character growth listing",
+          "detail": "The App Store in-app purchase list includes a Soulstone Package for Princess Bari.",
+          "upgradePriority": "Medium until your current run plan uses Princess Bari-related growth materials.",
+          "scoreNote": "Treat Soulstone spending as part of long-term collection growth rather than a random impulse purchase."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "category": "Treasure System",
+          "name": "Treasures",
+          "type": "Upgradeable score gear",
+          "detail": "The store description confirms that players collect Treasures and upgrade them for more powerful combinations.",
+          "upgradePriority": "Very high for Treasures used in your active scoring setup.",
+          "scoreNote": "Upgrade Treasures that improve your main Cookie and Pet run before spreading materials across unused Treasures."
+        },
+        {
+          "category": "Treasure Ticket",
+          "name": "Supreme Treasure Tickets",
+          "type": "Launch reward item",
+          "detail": "The launch gift event grants 3 Supreme Treasure Tickets together with 300 Crystals and 100,000 Coins.",
+          "upgradePriority": "High after checking which Treasure best supports your current scoring route.",
+          "scoreNote": "Use Treasure Tickets with a planned combi in mind so the reward actually improves a run instead of becoming decorative inventory clutter."
+        },
+        {
+          "category": "Combi Planning",
+          "name": "Cookie + Pet + Treasure Core",
+          "type": "Score-building rule",
+          "detail": "Official store text emphasizes Cookies, Pets, and upgraded Treasures as the core of stronger combinations.",
+          "upgradePriority": "Highest for your main League or event-scoring setup.",
+          "scoreNote": "A complete active combi beats one over-upgraded character with mismatched support."
         }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
+    "cookierunClassicLeagueHighScore": {
+      "title": "CookieRun Classic League and High Score Guide",
+      "displayType": "strategy-cards",
+      "intro": "CookieRun Classic includes real-time League competition where players around the world compete for the highest score. The strongest approach is to combine stable jump-slide control, consistent Jelly collection, obstacle avoidance, and an upgraded Cookie, Pet, and Treasure setup.",
+      "items": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "name": "Enter League for Score Competition",
+          "focus": "Mode basics",
+          "priority": "Core",
+          "riskLevel": "Medium",
+          "strategy": "Use League as your main high-score testing mode because the official description positions it as real-time competition against players around the world.",
+          "runHabit": "Compare runs using the same Cookie, Pet, and Treasure setup before changing multiple parts at once."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "name": "Master Jump and Slide Timing",
+          "focus": "Control consistency",
+          "priority": "Core",
+          "riskLevel": "High",
+          "strategy": "CookieRun Classic uses simple Jump and Slide controls, so leaderboard improvement depends heavily on clean inputs and avoiding repeated obstacle hits.",
+          "runHabit": "Practice difficult obstacle sections until they become automatic, then push for greedier Jelly paths."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
+          "name": "Collect Jellies Without Breaking the Run",
+          "focus": "Score route",
           "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
+          "riskLevel": "Medium",
+          "strategy": "The core run loop is eating Jellies while avoiding obstacles and escaping the Witch's Oven. High-score routes should favor stable Jelly paths over reckless pickups.",
+          "runHabit": "Skip risky Jellies when a hit would end the run or break momentum."
         },
         {
-          "name": "Glider Glove",
+          "name": "Build Around One Main Combi",
+          "focus": "Cookie, Pet, and Treasure synergy",
           "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
+          "riskLevel": "Low",
+          "strategy": "Use your strongest active Cookie, a matching or event-featured Pet, and upgraded Treasures as one planned scoring setup.",
+          "runHabit": "Upgrade the pieces you actually run in League before investing in backup collection pieces."
         },
         {
-          "name": "Projectile Wand or Bombs",
+          "name": "Test Lotus Root Phantom Cookie and Lotus Sitter",
+          "focus": "Launch update combi",
           "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "riskLevel": "Medium",
+          "strategy": "The launch update features Lotus Root Phantom Cookie and Lotus Sitter, making them natural candidates for current event and score testing.",
+          "runHabit": "Run several attempts with the same Treasure setup before judging the pair."
+        },
+        {
+          "name": "Use New Player Buffs Early",
+          "focus": "Rookie acceleration",
+          "priority": "Medium",
+          "riskLevel": "Low",
+          "strategy": "The official store description confirms special events and buffs for new players. Use these early to build resources and strengthen your first serious scoring setup.",
+          "runHabit": "Claim launch gifts and complete beginner missions before grinding long League sessions."
+        },
+        {
+          "name": "Upgrade Treasures for Active Runs",
+          "focus": "Treasure growth",
+          "priority": "High",
+          "riskLevel": "Low",
+          "strategy": "Treasures are confirmed as upgradeable pieces that create stronger combinations. Prioritize Treasures that directly support your current high-score route.",
+          "runHabit": "Avoid upgrading Treasures just because they look rare; every piece should serve a clear role in your route."
+        },
+        {
+          "name": "Review Every Failed Run",
+          "focus": "Mistake reduction",
+          "priority": "High",
+          "riskLevel": "Low",
+          "strategy": "Most score loss comes from repeated mistakes: missed jumps, late slides, obstacle hits, and poor route choices.",
+          "runHabit": "After each League attempt, identify one recurring mistake and fix that before changing your combi."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+    "cookierunClassicEventsUpdates": {
+      "title": "CookieRun Classic Events and Updates",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
+      "intro": "CookieRun Classic launched with Grand Open events, launch gifts, new Cookie and Pet update notes, and official support guidance for future announcements. Prioritize claimable rewards first, then follow official X and the support update page for new characters, content, and feedback notices.",
+      "items": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "date": "2026-06-24",
+          "type": "Store Update",
+          "title": "CookieRun Classic Grand Launch",
+          "status": "Live",
+          "details": "The Google Play listing shows the current version note as CookieRun Classic Grand Launch.",
+          "reward": "Launch-period access and Grand Open event content",
+          "playerAction": "Install or update the game from Google Play or the App Store before checking event tabs in-game."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "date": "Launch period",
+          "type": "Grand Open Event",
+          "title": "CookieRun Classic Grand Open",
+          "status": "Live",
+          "details": "The Grand Open event promotes exclusive login rewards, missions, and buffs for new players.",
+          "reward": "Login rewards, missions, and new-player buffs",
+          "playerAction": "Log in daily and clear launch missions before focusing only on score grinding."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "date": "Launch period",
+          "type": "Launch Gifts",
+          "title": "Launch gifts! Start the adventure now!",
+          "status": "Live",
+          "details": "The official launch gift event lists 300 Crystals, 100,000 Coins, and 3 Supreme Treasure Tickets.",
+          "reward": "300 Crystals, 100,000 Coins, 3 Supreme Treasure Tickets",
+          "playerAction": "Claim the gift early and use Treasure Tickets after choosing your main scoring setup."
+        },
+        {
+          "date": "Launch update",
+          "type": "New Cookie and Pet",
+          "title": "Lotus Root Phantom Cookie and Lotus Sitter",
+          "status": "Live",
+          "details": "The Google Play event page features Lotus Root Phantom Cookie and Lotus Sitter as part of the current launch update.",
+          "reward": "New Cookie and Pet content",
+          "playerAction": "Test the pair in current event stages and compare score results with your existing combi."
+        },
+        {
+          "date": "Launch update",
+          "type": "New Cookie and Pet Event",
+          "title": "Pine Monk Cookie Travel Party Update",
+          "status": "Live",
+          "details": "The App Store event page describes a new companion in Pine Monk Cookie's travel party.",
+          "reward": "New Cookie and Pet event content",
+          "playerAction": "Check event missions tied to Pine Monk Cookie before spending growth materials."
+        },
+        {
+          "date": "Ongoing",
+          "type": "Future Updates",
+          "title": "Official X Update Channel",
+          "status": "Ongoing",
+          "details": "The official support article directs players to the CookieRun Classic official X account for update news.",
+          "reward": "New features, characters, and content announcements",
+          "playerAction": "Use the official X account for fresh update checks instead of random repost accounts."
+        },
+        {
+          "date": "Ongoing",
+          "type": "Feedback",
+          "title": "Official Support Feedback Route",
+          "status": "Ongoing",
+          "details": "The support page states that player feedback can be submitted through CookieRun Classic support and reviewed by staff.",
+          "reward": "Feedback submission path",
+          "playerAction": "Send bugs, suggestions, and duplicate-free feedback through the support form."
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
+    "cookierunClassicAccountSupport": {
+      "title": "CookieRun Classic Account Transfer and Troubleshooting",
+      "displayType": "accordion",
+      "intro": "CookieRun Classic account safety depends on linking progress to Google, Apple ID, or DevPlay before deleting the app, resetting a device, or moving to a new device. For install, update, connection, and crash issues, the official support pages focus on official store downloads, enough storage, updated OS versions, stable networks, and contacting support when the basic fixes do not solve the problem.",
+      "items": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "question": "How do I create a DevPlay account for CookieRun Classic?",
+          "answer": "You can create a DevPlay account for CookieRun Classic with an email address or with a Google or Apple social account. If you use a social account, that account's email address becomes your DevPlay ID, and the email address used for DevPlay account creation cannot be changed.",
+          "steps": [
+            "Install and open CookieRun Classic.",
+            "Choose Sign in with Email, or Sign in with Google/Apple in the DevPlay pop-up.",
+            "For email sign-up, enter a valid email address and create a password.",
+            "If you started as a guest, open the game's Settings and use the DevPlay Login or My DevPlay button to link later."
+          ],
+          "warning": "Use an email address you can actually access, because future password recovery depends on it."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "question": "Will my CookieRun Classic progress stay after deleting the app?",
+          "answer": "CookieRun Classic progress is protected only when the game is linked to Google, Apple ID, or DevPlay. If you play without linking an account, progress is lost when the app is uninstalled or the device is reset, and an unlinked account cannot be recovered.",
+          "steps": [
+            "Open the game settings.",
+            "Link the game to Google, Apple ID, or DevPlay before uninstalling.",
+            "Confirm the linked account is one you can log into again.",
+            "Only delete or reinstall the app after the account is linked."
+          ],
+          "warning": "Do not uninstall first and link later. Link your account before removing the app."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "question": "How do I transfer CookieRun Classic to another device?",
+          "answer": "To continue CookieRun Classic on a new device, log in with the same Google, Apple ID, or DevPlay account that is already linked to your game.",
+          "steps": [
+            "On the old device, confirm the game is linked to Google, Apple ID, or DevPlay.",
+            "Install CookieRun Classic on the new device from the App Store or Google Play.",
+            "Log in with the same linked account.",
+            "Check that your progress appears before deleting the app from the old device."
+          ],
+          "warning": "Using a different login can start a separate account, so match the exact account provider and email."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "question": "I cannot install CookieRun Classic. What should I check?",
+          "answer": "Install CookieRun Classic only from the App Store or Google Play. If installation fails, check storage, remove unused apps or photos, update the device OS, and confirm the device meets the minimum requirements.",
+          "steps": [
+            "Use the App Store or Google Play listing only.",
+            "Check available storage and free extra space if needed.",
+            "Update the device OS.",
+            "Confirm minimum requirements: iOS 15 or newer, or Android AOS 8.0 or newer.",
+            "Contact Support if the issue continues."
+          ],
+          "warning": "Downloads from other sources are not supported for normal performance."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "question": "Why can't I update CookieRun Classic?",
+          "answer": "CookieRun Classic updates may require extra storage beyond the minimum install requirement. Official support recommends freeing storage, securing at least 3 GB of available space, updating the device OS, and checking the same minimum requirements: iOS 15 or later, or Android AOS 8.0 or later.",
+          "steps": [
+            "Free storage by deleting unused apps or files.",
+            "Keep at least 3 GB of available storage.",
+            "Update iOS or Android to the latest available version.",
+            "Try updating CookieRun Classic again from the official store."
+          ],
+          "warning": "Meeting the minimum requirement does not guarantee identical performance across every device."
+        },
+        {
+          "question": "I cannot connect to CookieRun Classic. What do I do?",
+          "answer": "CookieRun Classic connection problems should be checked with a stable network first. Official support also recommends confirming that the game was downloaded from the App Store or Google Play, updating the device OS, freeing memory, and checking minimum system requirements.",
+          "steps": [
+            "Switch to a stable network.",
+            "Confirm the app came from the App Store or Google Play.",
+            "Update the device OS.",
+            "Free memory by removing unused apps, videos, or photos.",
+            "Confirm iOS 15 or newer, or Android AOS 8.0 or newer."
+          ],
+          "warning": "Unstable networks can make the game behave poorly even when the app itself is installed correctly."
+        },
+        {
+          "question": "My CookieRun Classic game crashes on iOS. How can I fix it?",
+          "answer": "For CookieRun Classic crashes on iOS, update iOS through Settings > General > Software Update, use a solid connection, check storage, keep at least 2 to 3 GB of space, close running apps, and restart the device.",
+          "steps": [
+            "Update iOS from Settings > General > Software Update.",
+            "Use a stable connection.",
+            "Check storage in Settings > General > About.",
+            "Keep at least 2 to 3 GB of free space.",
+            "Close running apps and restart the device."
+          ],
+          "warning": "Official support does not guarantee issue-free performance on jailbroken devices."
+        },
+        {
+          "question": "My CookieRun Classic game crashes on Android. How can I fix it?",
+          "answer": "For CookieRun Classic crashes on Android, update Android through device settings, use a solid connection, free storage, keep at least 4 GB of available space, close running apps, and restart the device.",
+          "steps": [
+            "Update Android from Settings > About Device or the relevant system update menu.",
+            "Use a stable connection.",
+            "Free device memory by deleting unused apps, videos, or photos.",
+            "Keep at least 4 GB of available space.",
+            "Close running apps and restart the device."
+          ],
+          "warning": "Android device variety means some devices may not meet recommended performance conditions even if they can install the game."
+        },
+        {
+          "question": "Where can I contact CookieRun Classic support?",
+          "answer": "CookieRun Classic support is available through the official support site and from inside the game through Game Settings > Game Info > Support / Probabilities.",
+          "steps": [
+            "Open Game Settings.",
+            "Go to Game Info.",
+            "Choose Support / Probabilities.",
+            "Submit the issue with account details, device information, and screenshots when useful."
+          ],
+          "warning": "For coupon issues, include the coupon code and Player ID when contacting support."
         }
       ]
     }
@@ -750,31 +711,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about CookieRun Classic",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is CookieRun Classic?",
+        "answer": "CookieRun Classic is the classic endless-runner adventure from Devsisters, available on iOS and Android. You run, jump, and slide to collect Jellies, escape the Witch's Oven, and collect Cookies, Pets, and Treasures for League score runs."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where can I download CookieRun Classic?",
+        "answer": "CookieRun Classic is free to download on the App Store for iPhone and iPad, and on Google Play for Android. It includes optional in-app purchases and launched globally on June 25, 2026."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I redeem CookieRun Classic codes?",
+        "answer": "CookieRun Classic codes are redeemed through the official DevPlay coupon page. Enter your DevPlay account email or Player ID and the coupon code, submit the form, then restart the game to receive the reward."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What are the launch gifts in CookieRun Classic?",
+        "answer": "The CookieRun Classic launch gift event grants 300 Crystals, 100,000 Coins, and 3 Supreme Treasure Tickets. Claim them from the in-game launch event flow before spending upgrade resources."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What is the best CookieRun Classic beginner strategy?",
+        "answer": "The best CookieRun Classic beginner strategy is to learn the Jump and Slide controls, claim launch and Grand Open rewards, then focus upgrades into one Cookie, Pet, and Treasure combi before entering League."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Will my CookieRun Classic progress be saved?",
+        "answer": "Your CookieRun Classic progress is saved only when you link the game to Google, Apple ID, or DevPlay. Always link an account before uninstalling the app or switching devices so your progress can be recovered."
       }
     ]
   },
@@ -802,125 +763,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "CookieRun Classic Codes",
+      "description": "Active CookieRun Classic coupon codes, the DevPlay redeem flow, launch gifts, and expired-code records.",
+      "metaTitle": "CookieRun Classic Codes - Active Coupons and DevPlay Redeem",
+      "metaDescription": "Track active CookieRun Classic coupon codes, the DevPlay redemption flow, launch gifts, and expired codes for faster rewards.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are CookieRun Classic Codes?",
+      "whatIsDescription": "CookieRun Classic codes are coupon codes redeemed through the official DevPlay coupon page for Crystals, Coins, Treasure Tickets, and event rewards.",
+      "why": "Why redeem codes?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Get Free Rewards",
+        "step1Description": "Redeem official codes for Crystals, Coins, and Treasure Tickets",
+        "step2Title": "Follow the DevPlay Flow",
+        "step2Description": "Use the official DevPlay coupon page with your account email or Player ID",
+        "step3Title": "Restart to Claim",
+        "step3Description": "Restart CookieRun Classic after redemption to receive the reward"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Codes"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "download": {
+      "title": "CookieRun Classic Download",
+      "description": "CookieRun Classic release date, platforms, store links, requirements, and store update notes.",
+      "metaTitle": "CookieRun Classic Download - Release Date, Platforms and Store Links",
+      "metaDescription": "Download CookieRun Classic on iOS and Android. Check the global launch date, store links, requirements, and update notes.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "How do I download CookieRun Classic?",
+      "whatIsDescription": "CookieRun Classic is free to download on the App Store for iOS and iPadOS, and on Google Play for Android, with optional in-app purchases.",
+      "why": "Why download from official stores?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Safe Install",
+        "step1Description": "Use the App Store or Google Play for a supported install",
+        "step2Title": "Latest Version",
+        "step2Description": "Get the current CookieRun Classic Grand Launch update",
+        "step3Title": "Event Access",
+        "step3Description": "Open the Grand Open event panel right after installing"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Download Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "beginner-guide": {
+      "title": "CookieRun Classic Beginner Guide",
+      "description": "CookieRun Classic controls, first-day progression, rewards, and early Cookie, Pet, and Treasure setup.",
+      "metaTitle": "CookieRun Classic Beginner Guide - First Runs and Early Setup",
+      "metaDescription": "Start CookieRun Classic with the Jump and Slide loop, claim launch rewards, and build one Cookie, Pet, and Treasure combi.",
+      "categoryLabel": "BEGINNER GUIDE",
+      "whatIs": "What is the CookieRun Classic beginner route?",
+      "whatIsDescription": "The CookieRun Classic beginner route teaches the two-button running loop, Jelly collection, obstacle avoidance, and a focused first combi for stable progression.",
+      "why": "Why follow a beginner guide?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Learn the Loop",
+        "step1Description": "Master Jump, Slide, and Jelly collection",
+        "step2Title": "Claim Rewards",
+        "step2Description": "Use launch gifts and Grand Open buffs early",
+        "step3Title": "Build a Combi",
+        "step3Description": "Focus upgrades into one Cookie, Pet, and Treasure setup"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Beginner Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "tier-list": {
+      "title": "CookieRun Classic Tier List",
+      "description": "CookieRun Classic Cookies, Pets, and Treasures ranked for early progression and League scoring.",
+      "metaTitle": "CookieRun Classic Tier List - Best Cookies, Pets and Treasures",
+      "metaDescription": "Rank CookieRun Classic Cookies, Pets, and Treasures for early runs, League scoring, and general performance.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the CookieRun Classic tier list?",
+      "whatIsDescription": "The CookieRun Classic tier list ranks Cookies, Pets, and Treasures by scoring value for early progression, League runs, and general play.",
+      "why": "Why use a tier list?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Prioritize Upgrades",
+        "step1Description": "Focus resources on high-value Cookies and Pets",
+        "step2Title": "Pick a Combi",
+        "step2Description": "Match Cookies, Pets, and upgraded Treasures",
+        "step3Title": "Score Higher",
+        "step3Description": "Run the strongest setup for League and events"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Tier List Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "cookies": {
+      "title": "CookieRun Classic Cookies",
+      "description": "CookieRun Classic Cookie skills, unlocks, upgrade priorities, and best combi pairings.",
+      "metaTitle": "CookieRun Classic Cookies - Skills, Unlocks and Upgrades",
+      "metaDescription": "Explore CookieRun Classic Cookies including K-Culture Cookies, Pine Monk Cookie, and Lotus Root Phantom Cookie with skills and upgrade notes.",
+      "categoryLabel": "COOKIES",
+      "whatIs": "What are CookieRun Classic Cookies?",
+      "whatIsDescription": "CookieRun Classic Cookies are the runners you collect and upgrade, each with unique skills and pairings with Pets and Treasures for stronger score runs.",
+      "why": "Why collect Cookies?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Build a Roster",
+        "step1Description": "Collect Cookies across rarity and skill types",
+        "step2Title": "Upgrade Smartly",
+        "step2Description": "Focus on Cookies you actually run",
+        "step3Title": "Pair with Pets",
+        "step3Description": "Match Cookies with the right Pets and Treasures"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Cookie Guides"
+    },
+    "league": {
+      "title": "CookieRun Classic League",
+      "description": "CookieRun Classic real-time League competition, scoring habits, best combis, and high-score routes.",
+      "metaTitle": "CookieRun Classic League - High Score Guide and Best Combis",
+      "metaDescription": "Master CookieRun Classic League with scoring habits, best combis, and high-score routes for competitive leaderboard runs.",
+      "categoryLabel": "LEAGUE",
+      "whatIs": "What is CookieRun Classic League?",
+      "whatIsDescription": "CookieRun Classic League is the real-time competition mode where players around the world compete for the highest score with their best Cookie, Pet, and Treasure combi.",
+      "why": "Why play League?",
+      "whySteps": {
+        "step1Title": "Compete Live",
+        "step1Description": "Race players worldwide in real time",
+        "step2Title": "Optimize Score",
+        "step2Description": "Refine jump-slide timing and Jelly routes",
+        "step3Title": "Climb the Board",
+        "step3Description": "Improve one route at a time for higher ranks"
+      },
+      "featured": "Featured & Essential",
+      "all": "All League Guides"
+    },
+    "events": {
+      "title": "CookieRun Classic Events",
+      "description": "CookieRun Classic Grand Open, launch gifts, new Cookie updates, and the official update tracker.",
+      "metaTitle": "CookieRun Classic Events - Grand Open, Launch Gifts and Updates",
+      "metaDescription": "Track CookieRun Classic Grand Open events, launch gifts, new Cookie and Pet updates, and official announcements.",
+      "categoryLabel": "EVENTS",
+      "whatIs": "What are CookieRun Classic events?",
+      "whatIsDescription": "CookieRun Classic events include Grand Open login rewards, launch gifts, new Cookie and Pet updates, and seasonal content tied to the official update channels.",
+      "why": "Why track events?",
+      "whySteps": {
+        "step1Title": "Claim Rewards",
+        "step1Description": "Pick up launch gifts and login bonuses early",
+        "step2Title": "Test New Content",
+        "step2Description": "Try new Cookies and Pets during their event",
+        "step3Title": "Stay Updated",
+        "step3Description": "Follow official X for announcements"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Events Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "CookieRun Classic Support",
+      "description": "CookieRun Classic account transfer, install, update, connection, and crash troubleshooting guides.",
+      "metaTitle": "CookieRun Classic Support - Account Transfer and Troubleshooting",
+      "metaDescription": "Get CookieRun Classic support for account transfer, install, update, connection, and crash fixes with official steps.",
+      "categoryLabel": "SUPPORT",
+      "whatIs": "What is CookieRun Classic support?",
+      "whatIsDescription": "CookieRun Classic support covers DevPlay account creation, progress linking, device transfer, and install, update, connection, and crash troubleshooting.",
+      "why": "Why check support guides?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Protect Progress",
+        "step1Description": "Link your account before reinstalling or switching devices",
+        "step2Title": "Fix Issues",
+        "step2Description": "Resolve install, update, and connection problems",
+        "step3Title": "Contact Support",
+        "step3Description": "Use the in-game support route for account issues"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Support Guides"
     }
   }
 }
