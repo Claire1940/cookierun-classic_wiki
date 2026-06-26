@@ -134,6 +134,9 @@ export default function HomePageClient({
         },
         sameAs: [
           "https://play.google.com/store/apps/details?id=com.devsisters.crg&hl=en_US",
+          "https://apps.apple.com/us/app/cookierun-classic/id6759596824",
+          "https://www.instagram.com/crclassic_en",
+          "https://x.com/CRClassicEN",
           "https://discord.com/invite/cookierun",
           "https://www.reddit.com/r/Cookierun/",
           "https://www.youtube.com/playlist?list=PLSEv2NB3ypjlJpOtuNr5t4fD3TFzNr1Fl",
@@ -1410,7 +1413,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://x.com/devsisters"
+                    href="https://x.com/CRClassicEN"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

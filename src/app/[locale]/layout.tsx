@@ -78,7 +78,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: t("twitterTitle"),
       description: t("twitterDescription"),
       images: [`${siteUrl}/images/hero.webp`],
-      creator: "@devsisters",
+      creator: "@CRClassicEN",
     },
     icons: {
       icon: [

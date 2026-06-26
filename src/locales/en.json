@@ -35,7 +35,7 @@
   },
   "hero": {
     "badge": "Classic Cookie Runner Adventure",
-    "title": "CookieRun Classic",
+    "title": "CookieRun Classic Wiki",
     "description": "Run, jump, and slide with classic Cookies as you collect Jellies, escape the Witch's Oven, unlock Cookies, Pets, and Treasures, join real-time League races, and track launch rewards and events.",
     "keywords": "CookieRun Classic, iOS, Android, codes, cookies, pets, treasures, combis, events, league",
     "getFreeCodesCTA": "Get Free Codes",
@@ -786,14 +786,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Run with Classic Cookies?",
+    "description": "Join the CookieRun community on Discord for codes, launch rewards, guides, updates, and League discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on App Store / Google Play"
   },
   "footer": {
     "title": "CookieRun Classic Wiki",
-    "description": "Your complete resource hub for CookieRun Classic crafting, biomes, creatures, achievements, and survival guides.",
+    "description": "Your complete resource hub for CookieRun Classic codes, Cookies, Pets, Treasures, combis, events, and league guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
