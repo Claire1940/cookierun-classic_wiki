@@ -10,14 +10,7 @@
       "twitterDescription": "CookieRun Classic covers codes, launch rewards, beginner tips, best Cookies, Pets, Treasures, combis, events, and league guides for faster runs."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
