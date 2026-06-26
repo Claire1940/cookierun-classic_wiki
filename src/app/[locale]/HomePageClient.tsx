@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, Suspense, lazy } from "react";
+import { useState, Suspense, lazy, type ReactNode } from "react";
 import {
   AlertTriangle,
   ArrowRight,
@@ -28,6 +28,7 @@ import { getPreferredMobileBannerSelection } from "@/components/ads/mobileAdConf
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
+import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -40,6 +41,33 @@ const LoadingPlaceholder = ({ height = "h-64" }: { height?: string }) => (
     className={`${height} bg-white/5 border border-border rounded-xl animate-pulse`}
   />
 );
+
+// 把标题文本按条件渲染为文章内链或纯文本（无匹配文章时降级为纯文本）
+function LinkedTitle({
+  linkData,
+  children,
+  className,
+  locale,
+}: {
+  linkData: { url: string; title: string } | null | undefined;
+  children: ReactNode;
+  className?: string;
+  locale: string;
+}) {
+  if (linkData) {
+    const href = locale === "en" ? linkData.url : `/${locale}${linkData.url}`;
+    return (
+      <Link
+        href={href}
+        className={`${className || ""} hover:text-[hsl(var(--nav-theme-light))] hover:underline decoration-[hsl(var(--nav-theme-light))/0.4] underline-offset-4 transition-colors`}
+        title={linkData.title}
+      >
+        {children}
+      </Link>
+    );
+  }
+  return <>{children}</>;
+}
 
 // 模块锚点顺序：与 Tools Grid 8 张卡及 8 个 section id 一一对应
 const MODULE_SECTION_IDS = [
@@ -74,11 +102,13 @@ function priorityBadgeClass(priority: string) {
 
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
+  moduleLinkMap: ModuleLinkMap;
   locale: string;
 }
 
 export default function HomePageClient({
   latestArticles,
+  moduleLinkMap,
   locale,
 }: HomePageClientProps) {
   const t = useMessages() as any;
@@ -342,7 +372,11 @@ export default function HomePageClient({
               <span className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                 <Ticket className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
               </span>
-              <h2 className="text-3xl md:text-5xl font-bold">{m.cookierunClassicCodesCouponRedeem.title}</h2>
+              <h2 className="text-3xl md:text-5xl font-bold">
+              <LinkedTitle linkData={moduleLinkMap["cookierunClassicCodesCouponRedeem"]} locale={locale}>
+                {m.cookierunClassicCodesCouponRedeem.title}
+              </LinkedTitle>
+            </h2>
             </div>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {m.cookierunClassicCodesCouponRedeem.intro}
@@ -422,7 +456,11 @@ export default function HomePageClient({
               <span className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                 <Download className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
               </span>
-              <h2 className="text-3xl md:text-5xl font-bold">{m.cookierunClassicReleaseDateDownload.title}</h2>
+              <h2 className="text-3xl md:text-5xl font-bold">
+              <LinkedTitle linkData={moduleLinkMap["cookierunClassicReleaseDateDownload"]} locale={locale}>
+                {m.cookierunClassicReleaseDateDownload.title}
+              </LinkedTitle>
+            </h2>
             </div>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {m.cookierunClassicReleaseDateDownload.intro}
@@ -503,7 +541,11 @@ export default function HomePageClient({
               <span className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                 <BookOpen className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
               </span>
-              <h2 className="text-3xl md:text-5xl font-bold">{m.cookierunClassicBeginnerGuide.title}</h2>
+              <h2 className="text-3xl md:text-5xl font-bold">
+              <LinkedTitle linkData={moduleLinkMap["cookierunClassicBeginnerGuide"]} locale={locale}>
+                {m.cookierunClassicBeginnerGuide.title}
+              </LinkedTitle>
+            </h2>
             </div>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {m.cookierunClassicBeginnerGuide.intro}
@@ -556,7 +598,11 @@ export default function HomePageClient({
               <span className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                 <Trophy className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
               </span>
-              <h2 className="text-3xl md:text-5xl font-bold">{m.cookierunClassicTierListCombis.title}</h2>
+              <h2 className="text-3xl md:text-5xl font-bold">
+              <LinkedTitle linkData={moduleLinkMap["cookierunClassicTierListCombis"]} locale={locale}>
+                {m.cookierunClassicTierListCombis.title}
+              </LinkedTitle>
+            </h2>
             </div>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {m.cookierunClassicTierListCombis.intro}
@@ -604,7 +650,11 @@ export default function HomePageClient({
               <span className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                 <Cookie className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
               </span>
-              <h2 className="text-3xl md:text-5xl font-bold">{m.cookierunClassicCookiesPetsTreasures.title}</h2>
+              <h2 className="text-3xl md:text-5xl font-bold">
+              <LinkedTitle linkData={moduleLinkMap["cookierunClassicCookiesPetsTreasures"]} locale={locale}>
+                {m.cookierunClassicCookiesPetsTreasures.title}
+              </LinkedTitle>
+            </h2>
             </div>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {m.cookierunClassicCookiesPetsTreasures.intro}
@@ -643,7 +693,11 @@ export default function HomePageClient({
               <span className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                 <Swords className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
               </span>
-              <h2 className="text-3xl md:text-5xl font-bold">{m.cookierunClassicLeagueHighScore.title}</h2>
+              <h2 className="text-3xl md:text-5xl font-bold">
+              <LinkedTitle linkData={moduleLinkMap["cookierunClassicLeagueHighScore"]} locale={locale}>
+                {m.cookierunClassicLeagueHighScore.title}
+              </LinkedTitle>
+            </h2>
             </div>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {m.cookierunClassicLeagueHighScore.intro}
@@ -684,7 +738,11 @@ export default function HomePageClient({
               <span className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                 <CalendarClock className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
               </span>
-              <h2 className="text-3xl md:text-5xl font-bold">{m.cookierunClassicEventsUpdates.title}</h2>
+              <h2 className="text-3xl md:text-5xl font-bold">
+              <LinkedTitle linkData={moduleLinkMap["cookierunClassicEventsUpdates"]} locale={locale}>
+                {m.cookierunClassicEventsUpdates.title}
+              </LinkedTitle>
+            </h2>
             </div>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {m.cookierunClassicEventsUpdates.intro}
@@ -727,7 +785,11 @@ export default function HomePageClient({
               <span className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                 <LifeBuoy className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
               </span>
-              <h2 className="text-3xl md:text-5xl font-bold">{m.cookierunClassicAccountSupport.title}</h2>
+              <h2 className="text-3xl md:text-5xl font-bold">
+              <LinkedTitle linkData={moduleLinkMap["cookierunClassicAccountSupport"]} locale={locale}>
+                {m.cookierunClassicAccountSupport.title}
+              </LinkedTitle>
+            </h2>
             </div>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {m.cookierunClassicAccountSupport.intro}
