@@ -428,7 +428,7 @@
           "type": "Character growth listing",
           "detail": "The App Store in-app purchase list includes a Soulstone Package for Princess Bari.",
           "upgradePriority": "Medium until your current run plan uses Princess Bari-related growth materials.",
-          "scoreNote": "Treat Soulstone spending as part of long-term collection growth rather than a random impulse purchase."
+          "scoreNote": "Treat Soulstone spending as part of long-term collection growth rather than a random impulse purchase, because apparently currencies exist to test human patience."
         },
         {
           "category": "Treasure System",
@@ -515,7 +515,7 @@
           "priority": "High",
           "riskLevel": "Low",
           "strategy": "Treasures are confirmed as upgradeable pieces that create stronger combinations. Prioritize Treasures that directly support your current high-score route.",
-          "runHabit": "Avoid upgrading Treasures just because they look rare; every piece should serve a clear role in your route."
+          "runHabit": "Avoid upgrading Treasures just because they look rare; even pixels need a job description."
         },
         {
           "name": "Review Every Failed Run",
@@ -584,7 +584,7 @@
           "status": "Ongoing",
           "details": "The official support article directs players to the CookieRun Classic official X account for update news.",
           "reward": "New features, characters, and content announcements",
-          "playerAction": "Use the official X account for fresh update checks instead of random repost accounts."
+          "playerAction": "Use the official X account for fresh update checks instead of random repost accounts doing their best impression of a fog machine."
         },
         {
           "date": "Ongoing",
@@ -611,7 +611,7 @@
             "For email sign-up, enter a valid email address and create a password.",
             "If you started as a guest, open the game's Settings and use the DevPlay Login or My DevPlay button to link later."
           ],
-          "warning": "Use an email address you can actually access, because future password recovery depends on it."
+          "warning": "Use an email address you can actually access. Future password recovery gets ugly fast when players treat email accounts like disposable napkins."
         },
         {
           "question": "Will my CookieRun Classic progress stay after deleting the app?",
@@ -622,7 +622,7 @@
             "Confirm the linked account is one you can log into again.",
             "Only delete or reinstall the app after the account is linked."
           ],
-          "warning": "Do not uninstall first and link later. Link your account before removing the app."
+          "warning": "Do not uninstall first and link later. That is not a recovery plan; that is a tiny digital funeral."
         },
         {
           "question": "How do I transfer CookieRun Classic to another device?",
@@ -668,7 +668,7 @@
             "Free memory by removing unused apps, videos, or photos.",
             "Confirm iOS 15 or newer, or Android AOS 8.0 or newer."
           ],
-          "warning": "Unstable networks can make the game behave poorly even when the app itself is installed correctly."
+          "warning": "Unstable networks can make the game behave badly even when the app itself is installed correctly."
         },
         {
           "question": "My CookieRun Classic game crashes on iOS. How can I fix it?",
