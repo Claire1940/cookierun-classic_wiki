@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "쿠키런 클래식 초보자 가이드: 최고의 시작 팁",
+  description: "초보자 조합, 출시 보상, 업그레이드 우선순위 및 계정 이전 문제 해결 방법이 포함된 쿠키런 클래식 초보자 가이드를 확인하세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/d97706/fff?text=New+Player+Guide",
+  date: "2026-06-26",
+  author: "쿠키런 클래식 위키 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **주요 목표**: 장애물을 뛰어넘고 슬라이드하는 간단한 2버튼 조작법 익히기 [base-info].
+- **출시 혜택**: 무료 300 크리스탈, 100,000 코인, 3개의 최고급 보물 뽑기권을 즉시 수령하세요 [homepage-modules-1].
+- **업그레이드 전략**: 초반 자원을 고성능 쿠키와 펫 조합 하나에 집중 투자하세요 [homepage-modules-1].
+- **계정 보안**: 영구적인 데이터 손실을 방지하기 위해 즉시 DevPlay 계정에 연동하세요 [homepage-modules-2].
+</Callout>
+
+<Section icon={Map} title="쿠키런 클래식 초보자 가이드: 설치 및 사양">
+
+최고의 **쿠키런 클래식 초보자 가이드**에 오신 것을 환영합니다 [homepage-modules-1]. 데브시스터즈가 사랑받는 횡스크롤 러닝 게임을 공식적으로 부활시켜 iOS 및 안드로이드 기기에 클래식한 플랫폼 액션을 선보였습니다 [base-info]. 이 게임은 마녀의 오븐을 탈출하고, 위험한 장애물을 피하며, 달콤한 젤리를 수집하는 핵심 루프를 재현합니다 [base-info]. 원활한 시작을 위해 먼저 공식 스토어에서 게임을 다운로드하고 모바일 기기가 최소 하드웨어 요구 사항을 충족하는지 확인해야 합니다 [homepage-modules-2].
+
+| 플랫폼 | 필수 OS 버전 | 초기 다운로드 크기 | 공식 개발사 |
+| :--- | :--- | :--- | :--- |
+| iOS / iPadOS | iOS 15.0 이상 | 358.1 MB | Devsisters |
+| Android | AOS 8.0 이상 | 3.0 GB 여유 공간 권장 | Devsisters Corporation |
+
+보안 위험 및 잠재적인 계정 정지로부터 기기를 보호하기 위해 제3자 APK 미러 사이트를 피하는 것이 강력히 권장됩니다 [homepage-modules-2]. 공식 버전은 직접 업데이트를 지원하여 라이브 이벤트 및 글로벌 리더보드 동기화와의 호환성을 보장합니다 [homepage-modules-2].
+
+<Callout type="info" title="저장 공간 할당 팁">
+초기 다운로드 패키지는 작지만, 패치, 고해상도 에셋 및 향후 이벤트 데이터를 위해 추가 저장 공간이 필요합니다 [homepage-modules-2]. 설치 오류나 게임 도중 튕김 현상을 방지하기 위해 다운로드를 시작하기 전 기기에 최소 3GB의 여유 공간을 확보하세요 [homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="핵심 러닝 메커니즘 마스터하기">
+
+게임 플레이는 클래식하고 반응성이 뛰어난 2버튼 조작 체계를 기반으로 합니다 [homepage-modules-1]. 화면 왼쪽에는 점프(Jump) 버튼이, 오른쪽에는 슬라이드(Slide) 버튼이 있습니다 [homepage-modules-1]. 조작은 간단하지만, 글로벌 리더보드에서 높은 점수를 얻으려면 정확한 타이밍, 순간적인 판단력, 캐릭터 히트박스에 대한 이해가 필요합니다 [homepage-modules-2].
+
+| 게임 플레이 동작 | 주요 기능 | 점수 최적화 전략 |
+| :--- | :--- | :--- |
+| 점프 (Jump) | 지상 장애물, 가시, 구멍 회피 | 높은 곳의 젤리를 먹으려면 두 번 탭하여 2단 점프 활용 |
+| 슬라이드 (Slide) | 낮은 천장 및 비행 장애물 아래 통과 | 긴 터널을 통과할 때는 슬라이드 버튼을 길게 유지 |
+| 젤리 수집 | 런 점수 상승을 위한 기본 포인트 획득 | 젤리 패턴을 암기하여 놓치지 않고 모든 웨이브 수집 |
+
+달리는 동안 쿠키의 체력 바는 지속적으로 감소합니다 [base-info]. 장애물과 충돌하면 체력이 즉시 크게 떨어지고 일시적으로 속도가 줄어듭니다 [homepage-modules-1, homepage-modules-2]. 더 오래 생존하고 런을 연장하려면 스테이지 곳곳에 흩어져 있는 체력 물약을 수집하면서 깔끔하게 점프와 슬라이드를 수행해야 합니다 [base-info, homepage-modules-2].
+
+<Callout type="warning" title="충돌의 결과">
+장애물에 부딪히는 것은 단순히 체력을 깎는 것 이상의 피해를 줍니다. 쿠키의 액티브 스킬이 일시적으로 비활성화되고 펫의 능력 활성화 타이머가 중단됩니다 [homepage-modules-2]. 높은 점수 배율을 유지하기 위해 위험한 젤리 수집보다는 생존과 장애물 회피를 우선시하세요 [homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="첫날 진행 로드맵">
+
+게임에서의 첫날은 전체 러닝 커리어의 기초를 다지는 시기입니다. 구조화된 로드맵을 따르면 자원 획득을 극대화하고, 강력한 스타터 캐릭터를 잠금 해제하며, 업그레이드 재료를 낭비하는 것을 방지할 수 있습니다 [homepage-modules-1].
+
+<Steps>
+  <Step num="1" title="튜토리얼 완료 및 출시 보상 수령">
+    입문 런을 완료하여 물리 엔진에 익숙해지세요. 자유 플레이가 열리면 게임 내 우편함으로 이동하여 그랜드 오픈 기념 패키지를 받으세요 [homepage-modules-1]. 이 번들에는 300 크리스탈, 100,000 코인, 3개의 최고급 보물 뽑기권이 포함되어 있습니다 [homepage-modules-1].
+  </Step>
+  <Step num="2" title="첫 고티어 쿠키 및 펫 획득">
+    시작 크리스탈과 티켓을 일반 배너에 사용하여 믿음직한 러너와 그에 맞는 펫을 확보하세요 [homepage-modules-1]. 더 오래 달릴 수 있도록 패시브 점수 보너스나 체력 회복 스킬을 제공하는 캐릭터를 찾으세요 [homepage-modules-1, homepage-modules-2].
+  </Step>
+  <Step num="3" title="첫 보물 장착 및 강화">
+    보물은 엄청난 점수 부스트, 자석 효과 또는 보호막을 제공하는 패시브 아이템입니다 [homepage-modules-1, homepage-modules-2]. 장착한 보물의 레벨을 올리는 데 골드를 투자하세요. 강화된 장비는 전체 점수 잠재력을 크게 높여줍니다 [homepage-modules-1, homepage-modules-2].
+  </Step>
+  <Step num="4" title="실시간 리그 아레나 진입">
+    세팅이 어느 정도 완료되면 리그 모드에 도전하세요 [homepage-modules-1]. 전 세계 플레이어들과 경쟁하면 일일 트로피, 추가 골드 및 전용 업그레이드 재료를 보상으로 받을 수 있습니다 [homepage-modules-1, homepage-modules-2].
+  </Step>
+</Steps>
+
+| 스타터 자원 | 제공 수량 | 초반 최적 소모처 |
+| :--- | :--- | :--- |
+| 크리스탈 | 300 | 프리미엄 캐릭터 뽑기에 투자하여 로스터 확장 [homepage-modules-1] |
+| 코인 | 100,000 | 주요 보물 업그레이드를 위해 아껴두기 [homepage-modules-1] |
+| 최고급 보물 뽑기권 | 3 | 보물 배너에서 즉시 사용하여 패시브 버프 확보 [homepage-modules-1] |
+
+<Callout type="success" title="그랜드 오픈 이벤트 버프">
+현재 진행 중인 그랜드 오픈 로그인 이벤트와 초보자 버프를 십분 활용하세요 [homepage-modules-1]. 이러한 기간 한정 프로모션은 경험치 증가, 업그레이드 비용 할인, 일일 로그인 보상을 제공하여 초반 성장을 가속화합니다 [homepage-modules-1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="첫 경쟁 조합(Combi) 구성하기">
+
+이 게임에서 성적은 쿠키 하나, 펫 하나, 그리고 최대 3개의 장착된 보물로 구성된 '조합(Combi)'에 크게 좌우됩니다 [homepage-modules-1, homepage-modules-2]. 단순히 희귀한 캐릭터를 장착하는 것보다 이 세 요소의 시너지를 맞추는 것이 훨씬 효과적입니다 [homepage-modules-2].
+
+<CardGrid cols={3}>
+  <Card title="득점 메타">
+    - **메인 쿠키**: 연꽃뿌리 유령 쿠키 [homepage-modules-1]
+    - **베스트 펫**: 연꽃 파수꾼 [homepage-modules-1]
+    - **집중**: 젤리당 획득 점수 극대화 [homepage-modules-2].
+  </Card>
+  <Card title="생존 빌드">
+    - **메인 쿠키**: 소나무 숲 수도승 쿠키 [homepage-modules-2]
+    - **베스트 펫**: 체력 회복형 동반자 [homepage-modules-1]
+    - **집중**: 보호막 제공으로 런 타임 연장 [homepage-modules-1, homepage-modules-2].
+  </Card>
+  <Card title="재화 파밍">
+    - **메인 쿠키**: K-컬처 쿠키 변형 [homepage-modules-1]
+    - **베스트 펫**: 코인 생성형 동반자 [homepage-modules-1]
+    - **집중**: 판당 골드 및 경험치 획득량 증가 [homepage-modules-1].
+  </Card>
+</CardGrid>
+
+소중한 자원을 어디에 투자할지 결정하는 데 도움이 되도록 아래의 초반 티어 리스트를 참고하세요 [homepage-modules-1]. 이 리스트는 득점 효율, 사용 편의성, 리그 경기에서의 전반적인 유용성을 기준으로 캐릭터 순위를 매겼습니다 [homepage-modules-1, homepage-modules-2].
+
+| 러너 / 동반자 | 기본 티어 | 주요 아키타입 | 핵심 성능 요인 |
+| :--- | :--- | :--- | :--- |
+| 연꽃뿌리 유령 쿠키 | S | 점수 전문가 | 고가치 젤리를 생성하고 장애물을 자동으로 파괴 [homepage-modules-1, homepage-modules-2] |
+| 연꽃 파수꾼 | S | 시너지 펫 | 스킬 지속 시간 연장 및 체력 물약 생성 [homepage-modules-1, homepage-modules-2] |
+| 소나무 숲 수도승 쿠키 | A | 유틸리티 러너 | 장애물을 파괴하여 충돌 피해 방지 [homepage-modules-1, homepage-modules-2] |
+| K-컬처 쿠키들 | A | 수집 특화 | 독특한 스테이지별 보너스와 높은 기본 스탯 제공 [homepage-modules-1, homepage-modules-2] |
+
+<Callout type="tip" title="보물 업그레이드 우선순위">
+항상 자석 효과나 보호막 기능이 있는 보물을 우선적으로 업그레이드하세요 [homepage-modules-2]. 자석 보물은 멀리 있는 젤리를 자동으로 끌어당겨, 장애물 회피와 러닝 리듬 유지에만 온전히 집중할 수 있게 해줍니다 [homepage-modules-1, homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="리그 경쟁 및 계정 보안">
+
+핵심 엔드 게임 경험은 실시간 리그 모드에 있으며, 여기서 플레이어들은 동일한 트랙에서 최고 점수를 확보하기 위해 경쟁합니다 [homepage-modules-1, homepage-modules-2]. 랭크를 올리면 희귀 캐릭터 영혼석, 크리스탈, 골드가 들어있는 상자를 보상으로 받습니다 [homepage-modules-1, homepage-modules-2].
+
+경쟁을 통해 쌓은 진행 상황을 보호하려면 즉시 계정을 보안 설정해야 합니다 [homepage-modules-1]. 게스트 계정으로 플레이하면 데이터가 취약해집니다. 앱을 삭제하거나, 휴대폰을 초기화하거나, 시스템 오류가 발생하면 진행 상황이 영구적으로 손실됩니다 [homepage-modules-2].
+
+<Checklist
+  id="account-security-checklist"
+  title="필수 보안 단계:"
+  items={[
+    "게임 내 설정 메뉴로 이동합니다 [homepage-modules-2].",
+    "이메일 주소를 연동하기 위해 DevPlay 로그인 옵션을 선택합니다 [homepage-modules-2].",
+    "또는 구글(Google)이나 애플(Apple) ID에 진행 상황을 결합합니다 [homepage-modules-2].",
+    "설정 탭에 표시된 고유 플레이어 ID를 적어둡니다 [homepage-modules-2].",
+    "구매를 하기 전 계정 상태가 '연동됨'으로 표시되는지 확인합니다 [homepage-modules-2]."
+  ]}
+/>
+
+<Callout type="warning" title="DevPlay 연동 주의사항">
+게임을 DevPlay 계정에 연동할 때는 자주 사용하는 활성 이메일 주소를 사용하세요 [homepage-modules-2]. 이메일이 DevPlay ID에 한 번 결합되면 변경하거나 다른 계정으로 이전할 수 없으므로, 이것이 유일한 복구 수단이 됩니다 [homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="자주 묻는 질문 (FAQ)">
+
+이 가이드를 마무리하며, 새로운 플레이어들이 여정을 시작할 때 가장 자주 묻는 기술적 및 게임 플레이 질문들을 살펴보겠습니다 [homepage-modules-1].
+
+<FAQ items={[
+  {
+    question: "쿠폰 코드를 사용하기 위한 플레이어 ID는 어디서 찾나요?",
+    answer: "게임을 열고 오른쪽 상단의 설정(톱니바퀴 아이콘)을 누른 다음, 계정 탭에서 플레이어 ID를 확인하세요. 이 ID를 공식 DevPlay 쿠폰 페이지에 입력하여 보상을 받을 수 있습니다."
+  },
+  {
+    question: "모바일 기기에서 게임이 계속 튕기는데 어떻게 해결하나요?",
+    answer: "휴대폰에 최소 3GB의 여유 저장 공간이 있는지 확인하고, 백그라운드 앱을 모두 닫으세요. 또한 iOS 15.0 또는 Android AOS 8.0 이상 버전을 사용 중인지 확인하십시오. 탈옥이나 루팅된 기기는 지원되지 않으므로 사용을 피하세요."
+  },
+  {
+    question: "iOS에서 안드로이드 기기로 진행 상황을 옮길 수 있나요?",
+    answer: "네, 가능합니다. 기존 기기에서 게임을 DevPlay 계정에 연동하면, 지원되는 다른 플랫폼에서 동일한 자격 증명으로 로그인하여 즉시 진행 상황을 복구할 수 있습니다."
+  },
+  {
+    question: "보물 업그레이드를 위한 코인을 가장 빨리 버는 방법은 무엇인가요?",
+    answer: "매일 리그 레이스에 참여하고, 활성화된 모든 그랜드 오픈 미션을 완료하세요. 또한 자유 플레이 모드에서 코인 부스팅 보물을 장착한 K-컬처 쿠키로 달리는 것이 좋습니다."
+  }
+]} />
+
+<Callout type="info" title="공식 커뮤니티 지원">
+최신 패치 노트, 밸런스 조정 및 공식 쿠폰 코드 소식을 확인하려면 공식 X 계정(@CRClassicEN)을 팔로우하고 데브시스터즈 고객 지원 포털을 정기적으로 확인하세요 [base-info, homepage-modules-1].
+</Callout>
+
+</Section>

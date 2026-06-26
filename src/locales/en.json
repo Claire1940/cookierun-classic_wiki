@@ -10,7 +10,15 @@
       "twitterDescription": "CookieRun Classic covers codes, launch rewards, beginner tips, best Cookies, Pets, Treasures, combis, events, and league guides for faster runs."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "tier": "Tier List",
+    "cookies": "Cookies",
+    "reroll": "Reroll",
+    "download": "Download",
+    "release": "Release"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -803,12 +811,12 @@
       "featured": "Featured & Essential",
       "all": "All Download Guides"
     },
-    "beginner-guide": {
-      "title": "CookieRun Classic Beginner Guide",
+    "guide": {
+      "title": "CookieRun Classic Guide",
       "description": "CookieRun Classic controls, first-day progression, rewards, and early Cookie, Pet, and Treasure setup.",
-      "metaTitle": "CookieRun Classic Beginner Guide - First Runs and Early Setup",
+      "metaTitle": "CookieRun Classic Guide - First Runs and Early Setup",
       "metaDescription": "Start CookieRun Classic with the Jump and Slide loop, claim launch rewards, and build one Cookie, Pet, and Treasure combi.",
-      "categoryLabel": "BEGINNER GUIDE",
+      "categoryLabel": "GUIDE",
       "whatIs": "What is the CookieRun Classic beginner route?",
       "whatIsDescription": "The CookieRun Classic beginner route teaches the two-button running loop, Jelly collection, obstacle avoidance, and a focused first combi for stable progression.",
       "why": "Why follow a beginner guide?",
@@ -823,7 +831,7 @@
       "featured": "Featured & Essential",
       "all": "All Beginner Guides"
     },
-    "tier-list": {
+    "tier": {
       "title": "CookieRun Classic Tier List",
       "description": "CookieRun Classic Cookies, Pets, and Treasures ranked for early progression and League scoring.",
       "metaTitle": "CookieRun Classic Tier List - Best Cookies, Pets and Treasures",
@@ -863,65 +871,45 @@
       "featured": "Featured & Essential",
       "all": "All Cookie Guides"
     },
-    "league": {
-      "title": "CookieRun Classic League",
-      "description": "CookieRun Classic real-time League competition, scoring habits, best combis, and high-score routes.",
-      "metaTitle": "CookieRun Classic League - High Score Guide and Best Combis",
-      "metaDescription": "Master CookieRun Classic League with scoring habits, best combis, and high-score routes for competitive leaderboard runs.",
-      "categoryLabel": "LEAGUE",
-      "whatIs": "What is CookieRun Classic League?",
-      "whatIsDescription": "CookieRun Classic League is the real-time competition mode where players around the world compete for the highest score with their best Cookie, Pet, and Treasure combi.",
-      "why": "Why play League?",
+    "reroll": {
+      "title": "CookieRun Classic Reroll",
+      "description": "CookieRun Classic reroll steps, what to reroll for, and when to stop rerolling for the best early Cookies and Treasures.",
+      "metaTitle": "CookieRun Classic Reroll - What to Reroll For and Best Targets",
+      "metaDescription": "Learn the CookieRun Classic reroll flow, what to reroll for, and the best early Cookies and Treasures to lock in before you commit.",
+      "categoryLabel": "REROLL",
+      "whatIs": "What is CookieRun Classic reroll?",
+      "whatIsDescription": "CookieRun Classic reroll is the process of restarting a fresh account to pull stronger early Cookies and Treasures before investing resources, giving you a faster and smoother start.",
+      "why": "Why reroll?",
       "whySteps": {
-        "step1Title": "Compete Live",
-        "step1Description": "Race players worldwide in real time",
-        "step2Title": "Optimize Score",
-        "step2Description": "Refine jump-slide timing and Jelly routes",
-        "step3Title": "Climb the Board",
-        "step3Description": "Improve one route at a time for higher ranks"
+        "step1Title": "Lock in a Strong Cookie",
+        "step1Description": "Reroll for top-tier early Cookies to anchor your first combi",
+        "step2Title": "Save Resources",
+        "step2Description": "Avoid sinking Crystals and Coins into weak early pulls",
+        "step3Title": "Know When to Stop",
+        "step3Description": "Set a clear reroll target and commit once you hit it"
       },
       "featured": "Featured & Essential",
-      "all": "All League Guides"
+      "all": "All Reroll Guides"
     },
-    "events": {
-      "title": "CookieRun Classic Events",
-      "description": "CookieRun Classic Grand Open, launch gifts, new Cookie updates, and the official update tracker.",
-      "metaTitle": "CookieRun Classic Events - Grand Open, Launch Gifts and Updates",
-      "metaDescription": "Track CookieRun Classic Grand Open events, launch gifts, new Cookie and Pet updates, and official announcements.",
-      "categoryLabel": "EVENTS",
-      "whatIs": "What are CookieRun Classic events?",
-      "whatIsDescription": "CookieRun Classic events include Grand Open login rewards, launch gifts, new Cookie and Pet updates, and seasonal content tied to the official update channels.",
-      "why": "Why track events?",
+    "release": {
+      "title": "CookieRun Classic Release",
+      "description": "CookieRun Classic global release date, pre-registration, Grand Launch schedule, and day-one launch rewards.",
+      "metaTitle": "CookieRun Classic Release - Global Launch Date and Grand Launch",
+      "metaDescription": "Track the CookieRun Classic global release date, pre-registration rewards, Grand Launch schedule, and day-one launch gifts.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the CookieRun Classic release?",
+      "whatIsDescription": "The CookieRun Classic release covers the global launch date, pre-registration campaign, Grand Launch schedule, and day-one rewards available to players who start at launch.",
+      "why": "Why track the release?",
       "whySteps": {
-        "step1Title": "Claim Rewards",
-        "step1Description": "Pick up launch gifts and login bonuses early",
-        "step2Title": "Test New Content",
-        "step2Description": "Try new Cookies and Pets during their event",
-        "step3Title": "Stay Updated",
-        "step3Description": "Follow official X for announcements"
+        "step1Title": "Start on Day One",
+        "step1Description": "Log in at launch to claim time-limited Grand Launch rewards",
+        "step2Title": "Claim Pre-Registration",
+        "step2Description": "Redeem pre-registration milestones tied to the global launch",
+        "step3Title": "Plan Your Start",
+        "step3Description": "Align your first sessions with launch events and login bonuses"
       },
       "featured": "Featured & Essential",
-      "all": "All Events Guides"
-    },
-    "support": {
-      "title": "CookieRun Classic Support",
-      "description": "CookieRun Classic account transfer, install, update, connection, and crash troubleshooting guides.",
-      "metaTitle": "CookieRun Classic Support - Account Transfer and Troubleshooting",
-      "metaDescription": "Get CookieRun Classic support for account transfer, install, update, connection, and crash fixes with official steps.",
-      "categoryLabel": "SUPPORT",
-      "whatIs": "What is CookieRun Classic support?",
-      "whatIsDescription": "CookieRun Classic support covers DevPlay account creation, progress linking, device transfer, and install, update, connection, and crash troubleshooting.",
-      "why": "Why check support guides?",
-      "whySteps": {
-        "step1Title": "Protect Progress",
-        "step1Description": "Link your account before reinstalling or switching devices",
-        "step2Title": "Fix Issues",
-        "step2Description": "Resolve install, update, and connection problems",
-        "step3Title": "Contact Support",
-        "step3Description": "Use the in-game support route for account issues"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Guides"
+      "all": "All Release Guides"
     }
   }
 }

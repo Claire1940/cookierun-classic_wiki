@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "cookie-run-classic-code",
+        "file": "cookie-run-classic-code"
+      }
+    ],
+    "cookies": [
+      {
+        "slug": "cookie-run-classic-all-cookies",
+        "file": "cookie-run-classic-all-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-characters",
+        "file": "cookie-run-classic-characters"
+      },
+      {
+        "slug": "cookie-run-classic-cookies",
+        "file": "cookie-run-classic-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-cotton-candy-cookie",
+        "file": "cookie-run-classic-cotton-candy-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-hero-cookie",
+        "file": "cookie-run-classic-hero-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-pancake-cookie",
+        "file": "cookie-run-classic-pancake-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-zombie-cookie",
+        "file": "cookie-run-classic-zombie-cookie"
+      }
+    ],
+    "download": [
+      {
+        "slug": "cookie-run-classic-android",
+        "file": "cookie-run-classic-android"
+      },
+      {
+        "slug": "cookie-run-classic-apk",
+        "file": "cookie-run-classic-apk"
+      },
+      {
+        "slug": "cookie-run-classic-app-store",
+        "file": "cookie-run-classic-app-store"
+      },
+      {
+        "slug": "cookie-run-classic-download",
+        "file": "cookie-run-classic-download"
+      },
+      {
+        "slug": "cookie-run-classic-india",
+        "file": "cookie-run-classic-india"
+      },
+      {
+        "slug": "cookie-run-classic-ios",
+        "file": "cookie-run-classic-ios"
+      },
+      {
+        "slug": "cookie-run-classic-pc",
+        "file": "cookie-run-classic-pc"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "cookie-run-classic-beginner-guide",
+        "file": "cookie-run-classic-beginner-guide"
+      },
+      {
+        "slug": "cookie-run-classic-day-one-guide",
+        "file": "cookie-run-classic-day-one-guide"
+      },
+      {
+        "slug": "cookie-run-classic-guide",
+        "file": "cookie-run-classic-guide"
+      },
+      {
+        "slug": "cookie-run-classic-how-to-play",
+        "file": "cookie-run-classic-how-to-play"
+      },
+      {
+        "slug": "cookie-run-classic-new-player-guide",
+        "file": "cookie-run-classic-new-player-guide"
+      },
+      {
+        "slug": "cookie-run-classic-review",
+        "file": "cookie-run-classic-review"
+      },
+      {
+        "slug": "cookie-run-classic-tips",
+        "file": "cookie-run-classic-tips"
+      },
+      {
+        "slug": "cookie-run-classic-what-to-do-first",
+        "file": "cookie-run-classic-what-to-do-first"
+      }
+    ],
+    "release": [
+      {
+        "slug": "cookie-run-classic-day-one",
+        "file": "cookie-run-classic-day-one"
+      },
+      {
+        "slug": "cookie-run-classic-global-release-date",
+        "file": "cookie-run-classic-global-release-date"
+      },
+      {
+        "slug": "cookie-run-classic-global",
+        "file": "cookie-run-classic-global"
+      },
+      {
+        "slug": "cookie-run-classic-grand-launch",
+        "file": "cookie-run-classic-grand-launch"
+      },
+      {
+        "slug": "cookie-run-classic-mobile-1-0-global-release-date",
+        "file": "cookie-run-classic-mobile-1.0-global-release-date"
+      },
+      {
+        "slug": "cookie-run-classic-official-launch",
+        "file": "cookie-run-classic-official-launch"
+      },
+      {
+        "slug": "cookie-run-classic-pre-registration",
+        "file": "cookie-run-classic-pre-registration"
+      }
+    ],
+    "reroll": [
+      {
+        "slug": "cookie-run-classic-reroll-guide",
+        "file": "cookie-run-classic-reroll-guide"
+      },
+      {
+        "slug": "cookie-run-classic-reroll",
+        "file": "cookie-run-classic-reroll"
+      },
+      {
+        "slug": "cookie-run-classic-what-to-reroll-for",
+        "file": "cookie-run-classic-what-to-reroll-for"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "cookie-run-classic-best-cookies-and-combi",
+        "file": "cookie-run-classic-best-cookies-and-combi"
+      },
+      {
+        "slug": "cookie-run-classic-best-cookies",
+        "file": "cookie-run-classic-best-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-best-starter-cookies",
+        "file": "cookie-run-classic-best-starter-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-best-treasures",
+        "file": "cookie-run-classic-best-treasures"
+      },
+      {
+        "slug": "cookie-run-classic-cookies-ranked",
+        "file": "cookie-run-classic-cookies-ranked"
+      },
+      {
+        "slug": "cookie-run-classic-meta",
+        "file": "cookie-run-classic-meta"
+      },
+      {
+        "slug": "cookie-run-classic-tier-list",
+        "file": "cookie-run-classic-tier-list"
+      }
+    ]
+  },
+  "ja": {
+    "codes": [
+      {
+        "slug": "cookie-run-classic-code",
+        "file": "cookie-run-classic-code"
+      }
+    ],
+    "cookies": [
+      {
+        "slug": "cookie-run-classic-all-cookies",
+        "file": "cookie-run-classic-all-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-characters",
+        "file": "cookie-run-classic-characters"
+      },
+      {
+        "slug": "cookie-run-classic-cookies",
+        "file": "cookie-run-classic-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-cotton-candy-cookie",
+        "file": "cookie-run-classic-cotton-candy-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-hero-cookie",
+        "file": "cookie-run-classic-hero-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-pancake-cookie",
+        "file": "cookie-run-classic-pancake-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-zombie-cookie",
+        "file": "cookie-run-classic-zombie-cookie"
+      }
+    ],
+    "download": [
+      {
+        "slug": "cookie-run-classic-android",
+        "file": "cookie-run-classic-android"
+      },
+      {
+        "slug": "cookie-run-classic-apk",
+        "file": "cookie-run-classic-apk"
+      },
+      {
+        "slug": "cookie-run-classic-app-store",
+        "file": "cookie-run-classic-app-store"
+      },
+      {
+        "slug": "cookie-run-classic-download",
+        "file": "cookie-run-classic-download"
+      },
+      {
+        "slug": "cookie-run-classic-india",
+        "file": "cookie-run-classic-india"
+      },
+      {
+        "slug": "cookie-run-classic-ios",
+        "file": "cookie-run-classic-ios"
+      },
+      {
+        "slug": "cookie-run-classic-pc",
+        "file": "cookie-run-classic-pc"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "cookie-run-classic-beginner-guide",
+        "file": "cookie-run-classic-beginner-guide"
+      },
+      {
+        "slug": "cookie-run-classic-day-one-guide",
+        "file": "cookie-run-classic-day-one-guide"
+      },
+      {
+        "slug": "cookie-run-classic-guide",
+        "file": "cookie-run-classic-guide"
+      },
+      {
+        "slug": "cookie-run-classic-how-to-play",
+        "file": "cookie-run-classic-how-to-play"
+      },
+      {
+        "slug": "cookie-run-classic-new-player-guide",
+        "file": "cookie-run-classic-new-player-guide"
+      },
+      {
+        "slug": "cookie-run-classic-review",
+        "file": "cookie-run-classic-review"
+      },
+      {
+        "slug": "cookie-run-classic-tips",
+        "file": "cookie-run-classic-tips"
+      },
+      {
+        "slug": "cookie-run-classic-what-to-do-first",
+        "file": "cookie-run-classic-what-to-do-first"
+      }
+    ],
+    "release": [
+      {
+        "slug": "cookie-run-classic-day-one",
+        "file": "cookie-run-classic-day-one"
+      },
+      {
+        "slug": "cookie-run-classic-global-release-date",
+        "file": "cookie-run-classic-global-release-date"
+      },
+      {
+        "slug": "cookie-run-classic-global",
+        "file": "cookie-run-classic-global"
+      },
+      {
+        "slug": "cookie-run-classic-grand-launch",
+        "file": "cookie-run-classic-grand-launch"
+      },
+      {
+        "slug": "cookie-run-classic-mobile-1-0-global-release-date",
+        "file": "cookie-run-classic-mobile-1.0-global-release-date"
+      },
+      {
+        "slug": "cookie-run-classic-official-launch",
+        "file": "cookie-run-classic-official-launch"
+      },
+      {
+        "slug": "cookie-run-classic-pre-registration",
+        "file": "cookie-run-classic-pre-registration"
+      }
+    ],
+    "reroll": [
+      {
+        "slug": "cookie-run-classic-reroll-guide",
+        "file": "cookie-run-classic-reroll-guide"
+      },
+      {
+        "slug": "cookie-run-classic-reroll",
+        "file": "cookie-run-classic-reroll"
+      },
+      {
+        "slug": "cookie-run-classic-what-to-reroll-for",
+        "file": "cookie-run-classic-what-to-reroll-for"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "cookie-run-classic-best-cookies-and-combi",
+        "file": "cookie-run-classic-best-cookies-and-combi"
+      },
+      {
+        "slug": "cookie-run-classic-best-cookies",
+        "file": "cookie-run-classic-best-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-best-starter-cookies",
+        "file": "cookie-run-classic-best-starter-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-best-treasures",
+        "file": "cookie-run-classic-best-treasures"
+      },
+      {
+        "slug": "cookie-run-classic-cookies-ranked",
+        "file": "cookie-run-classic-cookies-ranked"
+      },
+      {
+        "slug": "cookie-run-classic-meta",
+        "file": "cookie-run-classic-meta"
+      },
+      {
+        "slug": "cookie-run-classic-tier-list",
+        "file": "cookie-run-classic-tier-list"
+      }
+    ]
+  },
+  "ko": {
+    "codes": [
+      {
+        "slug": "cookie-run-classic-code",
+        "file": "cookie-run-classic-code"
+      }
+    ],
+    "cookies": [
+      {
+        "slug": "cookie-run-classic-all-cookies",
+        "file": "cookie-run-classic-all-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-characters",
+        "file": "cookie-run-classic-characters"
+      },
+      {
+        "slug": "cookie-run-classic-cookies",
+        "file": "cookie-run-classic-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-cotton-candy-cookie",
+        "file": "cookie-run-classic-cotton-candy-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-hero-cookie",
+        "file": "cookie-run-classic-hero-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-pancake-cookie",
+        "file": "cookie-run-classic-pancake-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-zombie-cookie",
+        "file": "cookie-run-classic-zombie-cookie"
+      }
+    ],
+    "download": [
+      {
+        "slug": "cookie-run-classic-android",
+        "file": "cookie-run-classic-android"
+      },
+      {
+        "slug": "cookie-run-classic-apk",
+        "file": "cookie-run-classic-apk"
+      },
+      {
+        "slug": "cookie-run-classic-app-store",
+        "file": "cookie-run-classic-app-store"
+      },
+      {
+        "slug": "cookie-run-classic-download",
+        "file": "cookie-run-classic-download"
+      },
+      {
+        "slug": "cookie-run-classic-india",
+        "file": "cookie-run-classic-india"
+      },
+      {
+        "slug": "cookie-run-classic-ios",
+        "file": "cookie-run-classic-ios"
+      },
+      {
+        "slug": "cookie-run-classic-pc",
+        "file": "cookie-run-classic-pc"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "cookie-run-classic-beginner-guide",
+        "file": "cookie-run-classic-beginner-guide"
+      },
+      {
+        "slug": "cookie-run-classic-day-one-guide",
+        "file": "cookie-run-classic-day-one-guide"
+      },
+      {
+        "slug": "cookie-run-classic-guide",
+        "file": "cookie-run-classic-guide"
+      },
+      {
+        "slug": "cookie-run-classic-how-to-play",
+        "file": "cookie-run-classic-how-to-play"
+      },
+      {
+        "slug": "cookie-run-classic-new-player-guide",
+        "file": "cookie-run-classic-new-player-guide"
+      },
+      {
+        "slug": "cookie-run-classic-review",
+        "file": "cookie-run-classic-review"
+      },
+      {
+        "slug": "cookie-run-classic-tips",
+        "file": "cookie-run-classic-tips"
+      },
+      {
+        "slug": "cookie-run-classic-what-to-do-first",
+        "file": "cookie-run-classic-what-to-do-first"
+      }
+    ],
+    "release": [
+      {
+        "slug": "cookie-run-classic-day-one",
+        "file": "cookie-run-classic-day-one"
+      },
+      {
+        "slug": "cookie-run-classic-global-release-date",
+        "file": "cookie-run-classic-global-release-date"
+      },
+      {
+        "slug": "cookie-run-classic-global",
+        "file": "cookie-run-classic-global"
+      },
+      {
+        "slug": "cookie-run-classic-grand-launch",
+        "file": "cookie-run-classic-grand-launch"
+      },
+      {
+        "slug": "cookie-run-classic-mobile-1-0-global-release-date",
+        "file": "cookie-run-classic-mobile-1.0-global-release-date"
+      },
+      {
+        "slug": "cookie-run-classic-official-launch",
+        "file": "cookie-run-classic-official-launch"
+      },
+      {
+        "slug": "cookie-run-classic-pre-registration",
+        "file": "cookie-run-classic-pre-registration"
+      }
+    ],
+    "reroll": [
+      {
+        "slug": "cookie-run-classic-reroll-guide",
+        "file": "cookie-run-classic-reroll-guide"
+      },
+      {
+        "slug": "cookie-run-classic-reroll",
+        "file": "cookie-run-classic-reroll"
+      },
+      {
+        "slug": "cookie-run-classic-what-to-reroll-for",
+        "file": "cookie-run-classic-what-to-reroll-for"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "cookie-run-classic-best-cookies-and-combi",
+        "file": "cookie-run-classic-best-cookies-and-combi"
+      },
+      {
+        "slug": "cookie-run-classic-best-cookies",
+        "file": "cookie-run-classic-best-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-best-starter-cookies",
+        "file": "cookie-run-classic-best-starter-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-best-treasures",
+        "file": "cookie-run-classic-best-treasures"
+      },
+      {
+        "slug": "cookie-run-classic-cookies-ranked",
+        "file": "cookie-run-classic-cookies-ranked"
+      },
+      {
+        "slug": "cookie-run-classic-meta",
+        "file": "cookie-run-classic-meta"
+      },
+      {
+        "slug": "cookie-run-classic-tier-list",
+        "file": "cookie-run-classic-tier-list"
+      }
+    ]
+  },
+  "th": {
+    "codes": [
+      {
+        "slug": "cookie-run-classic-code",
+        "file": "cookie-run-classic-code"
+      }
+    ],
+    "cookies": [
+      {
+        "slug": "cookie-run-classic-all-cookies",
+        "file": "cookie-run-classic-all-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-characters",
+        "file": "cookie-run-classic-characters"
+      },
+      {
+        "slug": "cookie-run-classic-cookies",
+        "file": "cookie-run-classic-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-cotton-candy-cookie",
+        "file": "cookie-run-classic-cotton-candy-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-hero-cookie",
+        "file": "cookie-run-classic-hero-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-pancake-cookie",
+        "file": "cookie-run-classic-pancake-cookie"
+      },
+      {
+        "slug": "cookie-run-classic-zombie-cookie",
+        "file": "cookie-run-classic-zombie-cookie"
+      }
+    ],
+    "download": [
+      {
+        "slug": "cookie-run-classic-android",
+        "file": "cookie-run-classic-android"
+      },
+      {
+        "slug": "cookie-run-classic-apk",
+        "file": "cookie-run-classic-apk"
+      },
+      {
+        "slug": "cookie-run-classic-app-store",
+        "file": "cookie-run-classic-app-store"
+      },
+      {
+        "slug": "cookie-run-classic-download",
+        "file": "cookie-run-classic-download"
+      },
+      {
+        "slug": "cookie-run-classic-india",
+        "file": "cookie-run-classic-india"
+      },
+      {
+        "slug": "cookie-run-classic-ios",
+        "file": "cookie-run-classic-ios"
+      },
+      {
+        "slug": "cookie-run-classic-pc",
+        "file": "cookie-run-classic-pc"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "cookie-run-classic-beginner-guide",
+        "file": "cookie-run-classic-beginner-guide"
+      },
+      {
+        "slug": "cookie-run-classic-day-one-guide",
+        "file": "cookie-run-classic-day-one-guide"
+      },
+      {
+        "slug": "cookie-run-classic-guide",
+        "file": "cookie-run-classic-guide"
+      },
+      {
+        "slug": "cookie-run-classic-how-to-play",
+        "file": "cookie-run-classic-how-to-play"
+      },
+      {
+        "slug": "cookie-run-classic-new-player-guide",
+        "file": "cookie-run-classic-new-player-guide"
+      },
+      {
+        "slug": "cookie-run-classic-review",
+        "file": "cookie-run-classic-review"
+      },
+      {
+        "slug": "cookie-run-classic-tips",
+        "file": "cookie-run-classic-tips"
+      },
+      {
+        "slug": "cookie-run-classic-what-to-do-first",
+        "file": "cookie-run-classic-what-to-do-first"
+      }
+    ],
+    "release": [
+      {
+        "slug": "cookie-run-classic-day-one",
+        "file": "cookie-run-classic-day-one"
+      },
+      {
+        "slug": "cookie-run-classic-global-release-date",
+        "file": "cookie-run-classic-global-release-date"
+      },
+      {
+        "slug": "cookie-run-classic-global",
+        "file": "cookie-run-classic-global"
+      },
+      {
+        "slug": "cookie-run-classic-grand-launch",
+        "file": "cookie-run-classic-grand-launch"
+      },
+      {
+        "slug": "cookie-run-classic-mobile-1-0-global-release-date",
+        "file": "cookie-run-classic-mobile-1.0-global-release-date"
+      },
+      {
+        "slug": "cookie-run-classic-official-launch",
+        "file": "cookie-run-classic-official-launch"
+      },
+      {
+        "slug": "cookie-run-classic-pre-registration",
+        "file": "cookie-run-classic-pre-registration"
+      }
+    ],
+    "reroll": [
+      {
+        "slug": "cookie-run-classic-reroll-guide",
+        "file": "cookie-run-classic-reroll-guide"
+      },
+      {
+        "slug": "cookie-run-classic-reroll",
+        "file": "cookie-run-classic-reroll"
+      },
+      {
+        "slug": "cookie-run-classic-what-to-reroll-for",
+        "file": "cookie-run-classic-what-to-reroll-for"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "cookie-run-classic-best-cookies-and-combi",
+        "file": "cookie-run-classic-best-cookies-and-combi"
+      },
+      {
+        "slug": "cookie-run-classic-best-cookies",
+        "file": "cookie-run-classic-best-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-best-starter-cookies",
+        "file": "cookie-run-classic-best-starter-cookies"
+      },
+      {
+        "slug": "cookie-run-classic-best-treasures",
+        "file": "cookie-run-classic-best-treasures"
+      },
+      {
+        "slug": "cookie-run-classic-cookies-ranked",
+        "file": "cookie-run-classic-cookies-ranked"
+      },
+      {
+        "slug": "cookie-run-classic-meta",
+        "file": "cookie-run-classic-meta"
+      },
+      {
+        "slug": "cookie-run-classic-tier-list",
+        "file": "cookie-run-classic-tier-list"
+      }
+    ]
+  }
+}

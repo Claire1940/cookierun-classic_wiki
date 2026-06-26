@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "クッキーラン：クラシック初心者ガイド：序盤の攻略のコツ",
+  description: "初心者向けのコンビ、リリース報酬、育成の優先順位、アカウント引き継ぎのトラブルシューティングなど、クッキーラン：クラシックの究極の初心者ガイドです。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/d97706/fff?text=New+Player+Guide",
+  date: "2026-06-26",
+  author: "クッキーラン：クラシック Wikiチーム",
+  keywords: "クッキーラン：クラシック, 初心者ガイド, 攻略, 序盤, アカウント連携"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主な目的**: ジャンプとスライドのシンプルな2ボタン操作をマスターして、障害物を避けながら進みましょう [base-info]。
+- **リリース特典**: 今すぐ無料のクリスタル300個、100,000コイン、最高級宝物チケット3枚をメールボックスから受け取りましょう [homepage-modules-1]。
+- **育成戦略**: 序盤のリソースは、性能の高い特定のクッキーとペットのペアに集中させて投資しましょう [homepage-modules-1]。
+- **アカウントの保護**: データの永久消失を防ぐため、すぐにDevPlayアカウントに連携しましょう [homepage-modules-2]。
+</Callout>
+
+<Section icon={Map} title="クッキーラン：クラシック初心者ガイド：インストールと動作環境">
+
+究極の**クッキーラン：クラシック初心者ガイド**へようこそ [homepage-modules-1]。Devsistersは、多くのファンに愛された横スクロールランニングゲームを正式に復活させ、iOSおよびAndroidデバイスでクラシックなプラットフォームアクションを実現しました [base-info]。このゲームは、魔女のオーブンから脱出し、危険な障害物を避け、甘いゼリーを集めるというコアなゲームサイクルを再現しています [base-info]。スムーズに開始するために、まずは公式ストアからゲームをダウンロードし、お使いのモバイルデバイスが最小動作要件を満たしているか確認してください [homepage-modules-2]。
+
+| プラットフォーム | 必要なOSバージョン | 初回ダウンロード容量 | 公式デベロッパー |
+| :--- | :--- | :--- | :--- |
+| iOS / iPadOS | iOS 15.0 以降 | 358.1 MB | Devsisters |
+| Android | AOS 8.0 以降 | 3.0 GB 以上の空き容量推奨 | Devsisters Corporation |
+
+セキュリティリスクやアカウント停止の可能性を避けるため、サードパーティのAPKミラーサイトの使用は避け、公式ストアからダウンロードすることを強くお勧めします [homepage-modules-2]。公式バージョンは直接アップデートを受け取ることができ、ライブイベントへの対応やグローバルランキングの同期が保証されます [homepage-modules-2]。
+
+<Callout type="info" title="ストレージ容量に関するヒント">
+初回ダウンロードパッケージはコンパクトですが、ゲームの進行に伴いパッチ、高解像度アセット、今後のイベントデータ用に追加のストレージが必要になります [homepage-modules-2]。インストールエラーやゲーム中のクラッシュを防ぐため、ダウンロードを開始する前にデバイスに少なくとも3GBの空き容量があることを確認してください [homepage-modules-2]。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="基本的なランニング操作のマスター">
+
+ゲームプレイは、レスポンスの良いクラシックな2ボタン操作に基づいています [homepage-modules-1]。画面の左側にはジャンプボタン、右側にはスライドボタンがあります [homepage-modules-1]。シンプルな操作ですが、グローバルランキングでハイスコアを出すには、正確なタイミング、一瞬の判断力、そしてキャラクターの当たり判定の理解が求められます [homepage-modules-2]。
+
+| アクション | 主な機能 | スコア最適化戦略 |
+| :--- | :--- | :--- |
+| ジャンプ | 地面の障害物やトゲ、穴を飛び越える | 2回タップして2段ジャンプを行い、高い場所にあるゼリーを回収する |
+| スライド | 低い天井や飛んでくる障害物の下をくぐる | スライドボタンを押し続けて、長いトンネルを通り抜ける |
+| ゼリー回収 | ポイントを蓄積してスコアを伸ばす | ゼリーの配置パターンを覚え、取りこぼしなく全回収を目指す |
+
+走っている間、クッキーの体力バーは絶えず減少していきます [base-info]。障害物に衝突すると体力が大幅に減り、一時的に移動速度が低下します [homepage-modules-1, homepage-modules-2]。より長く走りスコアを伸ばすには、ジャンプとスライドを正確にこなしながら、ステージ内に配置された回復ポーションを回収する必要があります [base-info, homepage-modules-2]。
+
+<Callout type="warning" title="衝突によるペナルティ">
+障害物に当たると体力が減るだけでなく、クッキーのアクティブスキルが一時的に無効化され、ペットの能力発動タイマーも乱されます [homepage-modules-2]。ハイスコア倍率を維持するため、リスクのあるゼリー回収よりも、生存と障害物回避を優先しましょう [homepage-modules-2]。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="初日の進め方ロードマップ">
+
+ゲーム開始初日の行動が、その後のランニングキャリアの基礎となります。構造化されたロードマップに従うことで、リソース獲得を最大化し、強力な初期キャラクターを解放し、育成素材の無駄遣いを防ぐことができます [homepage-modules-1]。
+
+<Steps>
+  <Step num="1" title="チュートリアルを完了してリリース報酬を受け取る">
+    まずは導入のランを完了して、ゲームの物理挙動に慣れましょう。自由に変更できるようになったら、すぐにゲーム内のメールボックスへ向かい、「グランドオープン記念パッケージ」を受け取ってください [homepage-modules-1]。これにはクリスタル300個、100,000コイン、最高級宝物チケット3枚が含まれています [homepage-modules-1]。
+  </Step>
+  <Step num="2" title="最初の高ティアなクッキーとペットを入手する">
+    初期のクリスタルとチケットを使ってガチャを引き、信頼できるランナーと相性の良いペットを手に入れましょう [homepage-modules-1]。序盤は、スコアボーナスを持つキャラクターや、体力を回復して長時間走れるキャラクターを狙うのがおすすめです [homepage-modules-1, homepage-modules-2]。
+  </Step>
+  <Step num="3" title="最初の宝物を装備して強化する">
+    宝物は、スコアアップ、磁石効果、シールドなどのパッシブ効果を提供するアイテムです [homepage-modules-1, homepage-modules-2]。装備した宝物をゴールドでレベルアップさせましょう。強化された装備は、総合的なスコアポテンシャルを大幅に引き上げます [homepage-modules-1, homepage-modules-2]。
+  </Step>
+  <Step num="4" title="リアルタイムのリーグ戦に挑戦する">
+    編成が整ったら、リーグモードに飛び込みましょう [homepage-modules-1]。世界中のプレイヤーと競い合うことで、毎日のトロフィー、追加のゴールド、限定の育成素材を獲得できます [homepage-modules-1, homepage-modules-2]。
+  </Step>
+</Steps>
+
+| 初期リソース | 提供数 | 序盤の理想的な使い道 |
+| :--- | :--- | :--- |
+| クリスタル | 300 | プレミアムガチャに使用して、キャラクターのラインナップを広げる [homepage-modules-1] |
+| コイン | 100,000 | 主力となる宝物のレベルアップのために温存する [homepage-modules-1] |
+| 最高級宝物チケット | 3 | すぐに宝物ガチャで使用し、パッシブバフを確保する [homepage-modules-1] |
+
+<Callout type="success" title="グランドオープンイベントのバフ">
+開催中のグランドオープンログインイベントや初心者バフを最大限に活用しましょう [homepage-modules-1]。これらの期間限定キャンペーンでは、獲得経験値の増加、強化コストの割引、ログインボーナスなどが提供され、序盤の進行を加速させます [homepage-modules-1]。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="最初の対戦用コンビの編成">
+
+このゲームでのパフォーマンスは、クッキー1体、ペット1体、そして最大3つの宝物で構成される「コンビ」に大きく依存します [homepage-modules-1, homepage-modules-2]。単にレア度の高いキャラクターを並べるよりも、これら3つの要素の相乗効果（シナジー）を考える方がはるかに効果的です [homepage-modules-2]。
+
+<CardGrid cols={3}>
+  <Card title="スコア特化メタ">
+    - **メインクッキー**: 蓮華の精霊クッキー [homepage-modules-1]
+    - **ベストペット**: 蓮のつぼみ [homepage-modules-1]
+    - **注目点**: 回収したゼリーあたりの基礎ポイントを最大化します [homepage-modules-2]。
+  </Card>
+  <Card title="生存重視ビルド">
+    - **メインクッキー**: 松の実味クッキー [homepage-modules-2]
+    - **ベストペット**: 体力回復系の相棒 [homepage-modules-1]
+    - **注目点**: シールドを展開することで、走行時間を延長します [homepage-modules-1, homepage-modules-2]。
+  </Card>
+  <Card title="リソース稼ぎ用">
+    - **メインクッキー**: K-Cultureクッキー変種 [homepage-modules-1]
+    - **ベストペット**: コイン生成系の相棒 [homepage-modules-1]
+    - **注目点**: 1回の走行で得られるゴールドと経験値をブーストします [homepage-modules-1]。
+  </Card>
+</CardGrid>
+
+貴重なリソースをどこに投資すべきか判断するために、以下の序盤ティアリストを参考にしてください [homepage-modules-1]。このリストは、スコア効率、使いやすさ、そしてリーグ戦での汎用性に基づいてランク付けされています [homepage-modules-1, homepage-modules-2]。
+
+| ランナー / 相棒 | 基本ティア | 特徴 | 主な性能要因 |
+| :--- | :--- | :--- | :--- |
+| 蓮華の精霊クッキー | S | スコアスペシャリスト | 価値の高いゼリーを生成し、障害物を自動で破壊する [homepage-modules-1, homepage-modules-2] |
+| 蓮のつぼみ | S | シナジーペット | スキル持続時間を延長し、体力ポーションを生成する [homepage-modules-1, homepage-modules-2] |
+| 松の実味クッキー | A | ユーティリティ | 障害物を破壊して衝突ダメージを未然に防ぐ [homepage-modules-1, homepage-modules-2] |
+| K-Cultureクッキー | A | 収集特化 | ステージ固有のボーナスと高い基礎ステータスを持つ [homepage-modules-1, homepage-modules-2] |
+
+<Callout type="tip" title="宝物強化の優先順位">
+「磁石効果」や「シールド」を持つ宝物の強化を常に優先しましょう [homepage-modules-2]。磁石宝物は遠くのゼリーを自動的に引き寄せてくれるため、障害物の回避と走行リズムの維持に集中できるようになります [homepage-modules-1, homepage-modules-2]。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="リーグ対戦とアカウントのセキュリティ">
+
+ゲームの核心となるエンドコンテンツは、リアルタイムのリーグモードです。ここでは、プレイヤー全員が同じトラックで競い合い、最高スコアを目指します [homepage-modules-1, homepage-modules-2]。ランクを上げることで、レアなクッキーのソウルストーン、クリスタル、ゴールドが入った宝箱を獲得できます [homepage-modules-1, homepage-modules-2]。
+
+競争の記録を守るために、すぐにアカウントを保護する必要があります [homepage-modules-1]。ゲストアカウントでのプレイは非常に不安定です。アプリの削除、スマートフォンの初期化、あるいはシステムクラッシュが発生した場合、進行状況は永久に失われます [homepage-modules-2]。
+
+<Checklist
+  id="account-security-checklist"
+  title="必須のセキュリティ手順:"
+  items={[
+    "ゲーム内の「設定」メニューを開く [homepage-modules-2]。",
+    "「DevPlayログイン」オプションを選択してメールアドレスを連携する [homepage-modules-2]。",
+    "または、Google IDやApple IDに進行状況を紐付ける [homepage-modules-2]。",
+    "設定タブに表示されている固有の「プレイヤーID」をメモしておく [homepage-modules-2]。",
+    "課金を行う前に、アカウントステータスが「連携済み」になっていることを確認する [homepage-modules-2]。"
+  ]}
+/>
+
+<Callout type="warning" title="DevPlay連携の注意点">
+ゲームをDevPlayアカウントに連携する際は、定期的にアクセスできる有効なメールアドレスを使用してください [homepage-modules-2]。一度メールアドレスがDevPlay IDに紐付けられると、変更や別のアカウントへの譲渡はできません。これが唯一の復旧手段となります [homepage-modules-2]。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="よくある質問">
+
+ガイドの締めくくりとして、初心者が冒険を始める際によく抱く技術的・ゲームプレイ上の質問にお答えします [homepage-modules-1]。
+
+<FAQ items={[
+  {
+    question: "クーポンコードを使用するためのプレイヤーIDはどこで確認できますか？",
+    answer: "ゲームを起動し、右上の設定（歯車アイコン）をタップして、「アカウント」タブにあるプレイヤーIDを確認してください。このIDを公式のDevPlayクーポン入力ページで使用することで、報酬を受け取れます。"
+  },
+  {
+    question: "ゲームが頻繁にクラッシュする場合の対処法は？",
+    answer: "デバイスに少なくとも3GBの空き容量があるか確認し、バックグラウンドアプリをすべて閉じてください。また、OSがiOS 15.0またはAndroid 8.0以降であることを確認してください。脱獄（Jailbreak）やルート化されたデバイスはサポート対象外です。"
+  },
+  {
+    question: "iOSからAndroidデバイスへ進行状況を引き継げますか？",
+    answer: "はい、可能です。元のデバイスでDevPlayアカウントに連携しておけば、別のプラットフォームのデバイスでも同じ認証情報でログインするだけで、即座にデータを復元できます。"
+  },
+  {
+    question: "宝物の強化に必要なコインを効率よく稼ぐには？",
+    answer: "毎日のリーグ戦に参加し、開催中のグランドオープンミッションをすべてクリアしましょう。また、リプレイモード（フリープレイ）でコイン獲得量アップの宝物を装備したK-Cultureクッキーを使用して走るのが効果的です。"
+  }
+]} />
+
+<Callout type="info" title="公式コミュニティサポート">
+最新のパッチノート、バランス調整、公式クーポンコードについては、公式Xアカウント（@CRClassicEN）をフォローし、Devsistersのサポートポータルを定期的に確認してください [base-info, homepage-modules-1]。
+</Callout>
+
+</Section>
